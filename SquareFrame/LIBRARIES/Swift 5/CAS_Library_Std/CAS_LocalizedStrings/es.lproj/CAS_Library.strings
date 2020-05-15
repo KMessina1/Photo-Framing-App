@@ -1,0 +1,465 @@
+/* es (SPANISH) CAS-Library Localized Strings */
+
+//Mark: - *** GENERAL TERMS *** -
+// MARK: ├─➤ RATE THIS APP
+"RATE_Title" = "Valorar %@";
+"RATE_Msg" = "Si te gusta usar %@ ¿le importaría tomar un momento para valorarlo\n\ngracias por tu apoyo!";
+"RATE_Btn_Rate" = "Valorar ahora";
+"RATE_Btn_Remind" = "Recuérdame más tarde";
+"RATE_Btn_No" = "No, gracias";
+
+// MARK: ├─➤ ALERT BUTTONS
+"OK" = "De acuerdo";
+"Yes" = "Sí";
+"No" = "No";
+"Cancel" = "Annuler";
+"Choose" = "Escoger";
+"Add" = "Añadir";
+"Add new" = "Añadir nuevo";
+"Edit" = "Editar";
+"Save" = "Salvar";
+"Update" = "Conjunto";
+"Delete" = "Borrar";
+"All" = "Todas";
+"Clear" = "Borrar";
+"Clear Info" = "Borrar información";
+"Clear_Msg" = "Eliminar permanentemente se muestra toda la información?";
+"Done" = "Hecho";
+"View" = "View";
+"SaveChanges?" = "¿Guardar cambios?";
+"Reset" = "Reiniciar";
+"Required" = "Necesario";
+"Settings" = "Ajustes";
+"Success" = "Success";
+"Failed" = "Failed";
+
+// MARK: ├─➤ WAIT MESSAGES
+"WAIT_PLEASE_WAIT" = "Por favor espera";
+"WAIT_DOWNLOADING" = "Descargan";
+"WAIT_DOWNLOADING_IMG" = "Descarga de fotos";
+"WAIT_DOWNLOADING_IMGS" = "Descargar de fotos";
+"WAIT_DOWNLOADING_THUMBNAILS" = "Descarga de miniaturas";
+"WAIT_DOWNLOADING_THUMBNAILS" = "Descarga de miniaturas";
+"WAIT_UPLOADING" = "Subiendo";
+"WAIT_UPLOADING_IMG" = "Subiendo Foto";
+"WAIT_UPLOADING_IMGS" = "Subiendo Fotos";
+"WAIT_UPDATING_CART" = "Actualizando el carrito";
+"WAIT_UPDATING_ORDER" = "Updating Order";
+"WAIT_DOWNLOADING_Followers" = "Descargando seguidores";
+"WAIT_LOGIN" = "Registrarse en cuenta";
+"WAIT_ORDERS" = "Obtener historial de pedidos";
+"WAIT_ORDERS_INFO" = "Obtener información de pedido";
+"WAIT_CUSTOMER_Get" = "Conseguir Cliente";
+"WAIT_CUSTOMER_Delete" = "Eliminación del Cliente";
+"WAIT_CUSTOMER_Edit" = "Edición del Cliente";
+"WAIT_PRODUCTS_INFO" = "Comprobación de la Disponibilidad del Producto";
+"Wait.Server.Available" = "Disponibilidad del servidor";
+
+// MARK: ├─➤ LOGIN
+"Login" = "Iniciar sesión";
+"Logout" = "Cerrar sesión";
+"NotLoggedIn" = "(Sin iniciar sesión)";
+"ERROR_BlankUsername" = "ERROR: No Nombre de usuario";
+"ERROR_BlankPassword" = "ERROR: Sin contraseña";
+"Login_UserNameAndPassword" = "Introduzca nombre de usuario y contraseña";
+"Guest" = "Huésped";
+"ERROR_BlankEmail" = "ERROR: No se ha introducido ningún correo electrónico.";
+
+// MARK: ├─➤ ADDRESSES
+"Name" = "Nombre";
+"Address" = "Dirección";
+"City" = "Ciudad";
+"State" = "Estado";
+"Province" = "Provincia";
+"Zip" = "Zip";
+"Zip Code" = "Código Postal";
+"Postal" = "Postal";
+"Postal Code" = "Código Postal";
+"Country" = "País";
+"Phone" = "Teléfono";
+"Phone Number" = "Número de teléfono";
+"Email" = "Email";
+"First Name" = "Nombre de pila";
+"Last Name" = "Apellido";
+"Address Line 1" = "Dirección Línea 1";
+"Address Line 2" = "Dirección Línea 2";
+"Phone Number with Area Code" = "Número de teléfono con el código de área";
+"Email Address" = "Dirección de correo electrónico";
+"Acct. Nickname" = "Cta. Apodo";
+"Account Nickname" = "Apodo de la cuenta";
+"Go back & fix" = "Volver y Arreglar";
+"Exit and don't save" = "Salir y no Guarde";
+"INCOMPLETE ADDRESS" = "Dirección Incompleta";
+"INCOMPLETE INFO" = "INFO INCOMPLETA";
+"RegionCode" = "Código de Región";
+"Nickname" = "Apodo";
+"AccountNickname_Reserved" = "El apodo de cuenta ingresado está reservado y no se puede usar. Por favor escribe uno nuevo.";
+"Enter Address" = "Ingresa la Direccion";
+"Address from Contacts" = "Dirección de Contactos";
+
+// MARK: ├─➤ CHECKOUT
+"Ship to" = "Envie a";
+"payment_info" = "Información del pago";
+"Gift_Title" = "¿Es esto un regalo?";
+"Gift_Msg" = "Mensaje de regalo (opcional)";
+"Gift Message" = "Mensaje de regalo";
+"Promo_Code_Optional" = "Código promocional (opcional)";
+"MailingList" = "¿Únete a nuestra lista de correos?";
+"Select" = "Seleccionar";
+"default" = "defecto";
+"shipping_std" = "Estándar $5 (3-5 días)";
+"shipping_priority" = "Prioridad $10 (1-2 días)";
+"Buy" = "comprar";
+"purchase" = "Compra";
+"place your order" = "Realice su pedido";
+"Complete Order" = "Orden completa";
+"Complete Your Order" = "Completar el Pedido";
+"Complete Purchase" = "Compra completa";
+"gift_msg" = "Mensaje de regalo";
+"Customer" = "Cliente";
+"Gift_SaveTitle" = "Mensaje de regalo";
+"Gift_SaveMsg" = "¿Quieres guardar tus cambios?";
+"Order_Details" = "Detalles fin";
+"Order_Receipt_Display" = "Su pedido ha sido recibido y está procesando.\n\nUna copia ha sido enviada a su correo electrónico para sus registros.\n\n¿Quieres ver ahora?";
+"Search for:" = "Buscar:";
+"Checkout_Terms" = "Al completar su pedido, usted está de acuerdo con la política y condiciones de uso privacidad de Squareframe.";
+"ExistingCustomer_Title" = "Cliente existente";
+"ExistingCustomer_Msg" = "Introduzca la dirección de correo electrónico para buscar su cuenta o cancele para continuar como un nuevo cliente.";
+
+// MARK: ├─➤ BILLING / SHIPPING
+"Address_Invalid_Title" = "DIRECCIÓN INVÁLIDA";
+"Address_Invalid_Msg" = "Por favor, compruebe la dirección introducida, no se pudo encontrar. Puede editar en la pantalla de información de la cuenta.";
+"SalesTax_Error_Title" = "ERROR DE IMPUESTOS DE VENTA";
+"SalesTax_Error_Msg" = "El servidor está ocupado. Por favor, espere un minuto y vuelva a intentarlo.";
+"SalesTax_UnknownError_Title" = "ERROR DE IMPUESTOS DE VENTA";
+"SalesTax_UnknownError_Msg" = "Se produjo un error desconocido en busca de la dirección introducida.";
+"BillShipTo_Title" = "Informacion de Cuenta";
+"BillShipTo_MyInfo" = "Info\nPersonal";
+"BillShipTo_BillInfo" = "Info\nde Facturación";
+"BillShipTo_ShipInfo" = "Info de Envío";
+"BillShipTo_Section_Name" = "Nombre y Email";
+"BillShipTo_Section_Instagram" = "Cuenta Instagram";
+"BillShipTo_Section_DefaultAddress" = "Dirección de Envio";
+"BillShipTo_Section_CreditCards" = "Tarjetas de Crédito";
+"BillShipTo_EditMyAddress" = "Info Personal";
+"BillShipTo_EditBillingAddress" = "Info de Facturación";
+"BillShipTo_EditShippingAddress" = "Info de Facturación";
+"BillShipTo_EditCreditCard" = "Tarjetas de Crédito";
+"BillShipTo_ShippingAddressMenu" = "Dirección de Envio";
+"BillShipTo_CreditCardsMenu" = "Tarjetas de Crédito";
+"BillShipTo_CreditCardsMenuAddNew" = "Añadir";
+"BillShipTo_CreditCardsMenuEdit" = "Editar";
+"BillShipTo_CreditCardsMenuDelete" = "Borrar";
+"BillShipTo_CreditCards_CardNum" = "Número de Tarjeta";
+"BillShipTo_CreditCards_ExpMonth" = "Mes de expiración";
+"BillShipTo_CreditCards_ExpYear" = "Año de Vencimiento";
+"BillShipTo_CreditCards_CVN" = "Número de verificación de tarjeta";
+"BillShipTo_CreditCards_Name" = "Nombre en la tarjeta";
+"BillShipTo_CreditCards_Nickname" = "Apodo de la tarjeta";
+"BillShipTo_ShippingAddressMenuAddNew" = "Añadir";
+"BillShipTo_ShippingAddressMenuEdit" = "Editar";
+"BillShipTo_ShippingAddressMenuDelete" = "Borrar";
+"BillShipTo_BillingAddressMenu" = "DIRECCIÓN DE ENVIO";
+"BillShipTo_BillingAddressMenuSameAs" = "Usar encima";
+"BillShipTo_BillingAddressMenuSameAsMyInfo" = "Usar dirección personal";
+"BillShipTo_BillingAddressMenuEdit" = "Editar";
+"BillShipTo_BillingAddressCopiedSameAs" = "DIRECCIÓN DE ENVIO";
+"BillShipTo_BillingAddressCopiedMsg" = "Dirección personal copiada.";
+"BillShipTo_MyInfoBlank" = "Introduzca su Nombre de cuenta y la información de direcciones.";
+"BillShipTo_BillInfoBlank" = "Por favor, introduzca sus datos de facturación Nombre y dirección de la información o utilizar su cuenta de nombre y dirección si el mismo.";
+"BillShipTo_Contact" = "Contacto";
+"BillShipTo_Billing" = "Facturación";
+"BillShipTo_Shipping" = "Envío";
+"BillShipTo_Payment" = "Pago";
+"BillShipTo_Summary" = "Resumen";
+
+// MARK: ├─➤ eCOMMERCE COUPONS
+"Apply" = "Aplicar";
+"Coupon" = "Código Promocional";
+"discount" = "Descuento";
+"free" = "GRATIS";
+"undefined" = "indefinido";
+"most expensive item" = "artículo más caro";
+"entire order" = "toda la orden";
+"shipping" = "envío";
+"all items" = "todos los artículoso";
+"off" = "de";
+"Coupon.Inactive" = "Inactivo: el código de promoción ya no está activo.";
+"Coupon.Invalid" = "Inválido: el código de promoción ya no es válido.";
+"Coupon.Expired" = "Caducado: el código de promoción ha expirado.";
+"Coupon.NotFound" = "No Encontrado - El código promocional ya no es válido.";
+"Coupon.LimitOnePer" = "Límite de uno por persona. Ya ha canjeado este cupón.";
+"Coupon.AlreadyEntered"= "Sólo puede utilizar un código promocional por pedido.";
+
+// MARK: ├─➤ IN-APP PURCHASES / eCOMMERCE
+"item" = "artículo";
+"items" = "artículos";
+"in cart" = "en el carrito";
+"AppStore" = "Tienda de ap";
+"iPhone" = "iPhone";
+"iPad" = "iPad";
+"Watch" = "Watch";
+"TV" = "TV";
+
+// MARK: ├─➤ CREDIT CARDS
+"CreditCard" = "Tarjeta de crédito";
+"CreditCards" = "Tarjetas de crédito";
+"Card Number" = "Número de tarjeta";
+"Name on card" = "Nombre en la tarjeta";
+"Nickname of card" = "Apodo de la tarjeta";
+"Verification" = "Verificación";
+"CVN" = "CVN:";
+"CVN (Security Code)" = "CVN (Código de seguridad)";
+"Card Verification Number" = "Número de verificación de tarjeta";
+"Exp" = "Exp:";
+"Expiration Month" = "mes de expiración";
+"Expiration Year" = "Año de vencimiento";
+"Type" = "Tipo";
+"Price" = "Precio";
+"Amount" = "Cantidad";
+"Quantity" = "Cantidad";
+"EmptyCart" = "Carro vacio";
+"Checkout" = "Revisa";
+"Expired" = "Muerto";
+"ExpiredCard_Title" = "TARJETA EXPIRADA";
+"ExpiredCard_Msg" = "Su tarjeta de crédito ha expirado y no se puede utilizar. Puede editar información de la tarjeta de la pantalla Información de la cuenta.";
+
+// MARK: ├─➤ CALENDAR
+"Month" = "Mes";
+"Year" = "Año";
+"January" = "Enero";
+"February" = "Febrero";
+"March" = "Marzo";
+"April" = "Abril";
+"May" = "Mayo";
+"June" = "Junio";
+"July" = "Julio";
+"August" = "Agosto";
+"September" = "Septiembre";
+"October" = "Octubre";
+"November" = "Noviembre";
+"December" = "Diciembre";
+
+// MARK: ├─➤ SERVER
+"SERVER_InfoNotFound_Title" = "SERVER ERROR";
+"SERVER_InfoNotFound_Msg" = "Information not found on server.";
+
+// MARK: ├─➤ PHOTOS
+"Size" = "Tamaño";
+"size" = "tamaño";
+"Color" = "Colorear";
+"Photo" = "Foto";
+"photo" = "foto";
+"Preview" = "Avance";
+"PhotoLibrary_Title" = "Biblioteca de Fotos";
+"PhotoLibrary_NoAccess" = "El acceso a fotos está desactivado en Config. del sistema.";
+
+// MARK: ├─➤ INSTAGRAM
+"Currently viewing" = "Actualmente viendo";
+"photos of" = "fotos de";
+"Currently viewing Photos of" = "Actualmente viendo fotos de";
+"Instagram_Login" = "Inicia sesión para Instagram";
+"Instagram_LoginFailure_Title" = "INGRESO INVALIDO";
+"Instagram_LoginFailure_Msg" = "Error de inicio de sesion.";
+"Instagram_Following" = "Siguiendo...";
+
+// MARK: ├─➤ CONTACT US
+"Contact" = "Contacto";
+"ContactUs" = "Contáctenos";
+"ContactUs_Email" = "Envíenos un correo electrónico con sus comentarios, preguntas o para sugerir ideas.";
+"ContactUs_Contact" = "Póngase en contacto con nosotros con sus comentarios, preguntas o para sugerir ideas.";
+"ContactUs_Website" = "Visite nuestro sitio web para más información sobre nuestros productos.";
+"Instagram_Menu_Faves" = "Mostrar Sólo ♥";
+"Instagram_Menu_ShowAll" = "Mostrar Todo";
+"Instagram_Menu_Logout" = "Fin de sesión de Instagram";
+"Instagram_Menu_ChangeAccount" = "Cambiar la cuenta de Instagram";
+"Instagram_Menu_Title" = "Filtrar fotos";
+"Instagram_Login_Loading" = "Instagram Login Cargando...";
+
+// MARK: ├─➤ ABOUT
+"About" = "Info de la aplicación";
+"About_Section_Application" = "Aplicaciones";
+"About_Section_Device" = "Dispositivo";
+"About_Section_Databases" = "Bases de datos";
+"About_Section_Libraries" = "Estructura";
+"About_Section_ExtLibraries" = "Las Bibliotecas Externas";
+
+// MARK: ├─➤ MENUS
+"Orders" = "Pedidos";
+"Home" = "Casa";
+"Help" = "Ayuda";
+"Account" = "Cuenta";
+
+// MARK: ├─➤ GESTURES
+"Tap To Change" = "Toque para cambiar";
+
+// MARK: ├─➤ MISCELLANEOUS
+"Set as default" = "Establecer por defecto";
+"Select Color" = "Seleccionar el color";
+"Truncated..." = "Truncado...";
+"version" = "versión";
+"Version" = "Versión";
+"cannot be more than" = "no puede ser más que";
+"error.unkown_Title" = "ERROR";
+"error.unkown_Msg" = "An unknown error occurred.";
+"error.PHP_Title" = "PhP SCRIPT ERROR";
+"error.PHP_Msg" = "An unknown error occurred.";
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// MARK: - *** ALERT MESSAGES *** -
+// MARK: ├─➤ APP STORE
+"APPSTORE_NewVerAvail_Title" = "Más nueva versión disponible";
+"APPSTORE_NewVerAvail_Msg" = "Update para instalar nuevas características y / o correcciones.";
+"APPSTORE_NewVerAvail_OK" = "Actualizar";
+"APPSTORE_NewVerAvail_Cancel" = "Omitir";
+
+// MARK: ├─➤ FILES
+"FILE_Error_Title" = "ERROR DE ARCHIVO";
+"FILE_Error_Msg" = "Se ha producido un error de archivo.";
+"FILE_NotFound_Title" = "ERROR DE ARCHIVO";
+"FILE_NotFound_Msg" = "Archivo no encontrado.";
+"FILE_NotFoundMainbundle_Title" = "ERROR DE ARCHIVO";
+"FILE_NotFoundMainbundle_Msg" = " no se puede encontrar en la principal Bundle. Contactar al desarrollador de la página AppStore.";
+"FILE_NotFound" = " archivo faltante.";
+"FILE_Download_Title" = "DESCARGA DE ARCHIVOS";
+"FILE_Download_Msg" = "Error al descargar el documento en el dispositivo.";
+"FILE_Downloaded_Title" = "ARCHIVO DESCARGADO";
+"FILE_Downloaded_Msg" = "Descargado en el dispositivo.";
+"FILE_DeleteError_Title" = "ERROR DE ELIMINACIÓN DE ARCHIVO";
+"FILE_DeleteError_Msg" = "El archivo no fue eliminado.";
+
+// MARK: ├─➤ SERVER
+"SERVER_InfoNotFound_Title" = "ERROR DEL SERVIDOR";
+"SERVER_InfoNotFound_Msg" = "Información no encontrada en el servidor.";
+"SERVER_Script_Error" = "Error al crear la URL de la secuencia de comandos.\n\n";
+"SERVER_Script_ErrorRetreiving" = "Error al recuperar información del servidor.";
+
+// MARK: ├─➤ PHOTOS
+"IMAGE_GetError_Title" = "ERROR DE LA FOTO";
+"IMAGE_GetError_Msg" = "Se ha producido un error al obtener la foto.";
+"IMAGE_SaveError_Title" = "ERROR DE LA FOTO";
+"IMAGE_SaveError_Msg" = "Había una imagen de ahorro de error al archivo llamado ";
+"IMAGE_SaveThumbError_Title" = "ERROR DE LA FOTO";
+"IMAGE_SaveThumbError_Msg" = "Había una imagen de ahorro de error al archivo llamado ";
+"IMAGE_NotFound_Title" = "ERROR DE LA FOTO";
+"IMAGE_NotFound_Msg" = "No se pudo encontrar la foto.";
+
+// MARK: ├─➤ EMAIL
+"EMAIL_NoAccess_Title" = "NO CORREO ELECTRÓNICO DE ACCESO";
+"EMAIL_NoAccess_Msg" = "cuenta de correo electrónico válida o inaccesibles en este momento.";
+"EMAIL_Sent_Title" = "EMAIL ENVIADO";
+"EMAIL_Sent_Msg" = "E-mail ha sido enviado.";
+"EMAIL_ComposeError_Title" = "CORREO ELECTRÓNICO DE ERRORES";
+"EMAIL_ComposeError_Msg" = "Redacción de correo electrónico Failed.";
+"EMAIL_UnknownError_Title" = "CORREO ELECTRÓNICO DE ERRORES";
+"EMAIL_UnknownError_Msg" = "Redacción de correo electrónico Failed.";
+"EMAIL_Attachment_Title" = "ERROR DE CORREO ELECTRÓNICO";
+"EMAIL_Attachment_Msg" = "Adjunto no válido.";
+"EMAIL_Cancelled_Title" = "EMAIL CANCELLED";
+"EMAIL_Cancelled_Msg" = "Email cancelled and not sent.";
+
+// MARK: ├─➤ FEATURE UNAVAILABLE IN SIMULATOR
+"SIM_FeatureNotAvail_Title" = "SIMULATOR";
+"SIM_FeatureNotAvail_Msg" = "Feature is not available in the Simulator.";
+
+// MARK: ├─➤ FEATURE UNAVAILABLE
+"FEATURE_NotImplemented_Title" = "NO DISPONIBLE";
+"FEATURE_NotImplemented_Msg" = "Función no se ha implementado todavía.";
+"UnsupportedLanguage_Title" = "Idioma no admitido";
+"UnsupportedLanguage_Msg" = "El idioma del dispositivo no está soportado para esta función.";
+
+// MARK: ├─➤ Social Media UNAVAILABLE
+"NotAvailable_SMS_Title" = "ERROR DE MENSAJERÍA";
+"NotAvailable_SMS_Msg" = "Los servicios de mensajería no están disponibles";
+"NotAvailable_Mail_Title" = "ERROR DE CORREO";
+"NotAvailable_Mail_Msg" = "Los servicios de correo no están disponibles";
+"Login_Facebook_Title" = "CUENTA DE FACEBOOK";
+"Login_Facebook_Msg" = "Por favor Iniciar sesión.";
+"NotAvailable_Facebook_Title" = "ERROR DE FACEBOOK";
+"NotAvailable_Facebook_Msg" = "Los servicios de Facebook no están disponibles";
+"Login_Twitter_Title" = "CUENTA DE TWITTER";
+"Login_Twitter_Msg" = "Por favor Iniciar sesión.";
+"NotAvailable_Twitter_Title" = "ERROR TWITTER";
+"NotAvailable_Twitter_Msg" = "Los servicios de Twitter no están disponibles";
+"SocialMedia_Thanks_Title" = "GRACIAS!";
+"SocialMedia_Thanks_Msg" = "\nGracias por compartir Squareframe.";
+"SocialMedia_Thanks_Copied" = "\nEnlace copiado a la carpeta. Gracias por compartir Squareframe.";
+
+// MARK: ├─➤ INTERNET
+"INTERNET_NotConnected_Title" = "ERROR DE INTERNET";
+"INTERNET_NotConnected_Msg" = "Debe estar conectado a Internet para ver esta página.";
+"INTERNET_NotConnectedChangeInfo_Msg" = "Debe estar conectado a Internet para cambiar esta información.";
+
+// MARK: ├─➤ PRINTER
+"PRINTER_Sent_Title" = "IMPRESIÓN...";
+"PRINTER_Sent_Msg" = "El documento seleccionado envía a la impresora.";
+"PRINTER_NotConnected_Title" = "ERROR DE LA IMPRESORA";
+"PRINTER_NotConnected_Msg" = "No se encontró la impresora válida o red es inaccesible.";
+"PRINTER_DomainError_Title" = "ERROR DE LA IMPRESORA";
+"PRINTER_DomainError_Msg" = "La impresión falló debido a un error en el dominio {ERROR_DOMAIN} con código de error {ERROR_CODE}";
+
+// MARK: ├─➤ DOCUMENTS/PDF
+"PDF_NotFound_Title" = "DOCUMENTO DE ERRORES";
+"PDF_NotFound_Msg" = "No está en el documento.";
+"PDF_NotFound_MsgWithFilename" = " no fue encontrado.";
+
+// MARK: ├─➤ SQL
+"SQL_GetError_Title" = "CONSIGA ERROR";
+"SQL_GetError_Msg" = "No se pudo obtener, ocurrió un error.";
+"SQL_SaveError_Title" = "SALVAR ERROR";
+"SQL_SaveError_Msg" = "No se pudo guardar, se produjo un error.";
+"SQL_DeleteError_Title" = "BORRAR ERROR";
+"SQL_DeleteError_Msg" = "No se pudo eliminar, ocurrió un error.";
+"SQL_Delete_Title" = "BORRAR?";
+"SQL_Delete_Msg" = "Borrar ";
+"SQL_Delete_Ok" = "Borrar";
+"SQL_Delete_Cancel" = "No";
+"SQL_UpdateCC_Title" = "tarjeta actualizada";
+"SQL_UpdateCC_Msg" = "Tarjeta de Actualización.";
+"SQL_AddedCC_Title" = "FUE ANADIDA";
+"SQL_AddedCC_Msg" = "Fue añadida.";
+"SQL_DeletedCC_Title" = "TARJETA DE BORRADO";
+"SQL_DeletedCC_Msg" = "Tarjeta eliminados.";
+"SQL_UpdateAddress_Title" = "DIRECCIÓN ACTUALIZADA";
+"SQL_UpdateAddress_Msg" = "Actualizado dirección.";
+"SQL_AddedAddress_Title" = "DIRECCIÓN AÑADIDO";
+"SQL_AddedAddress_Msg" = "Dirección añadido.";
+"SQL_DeletedAddress_Title" = "DIRECCIÓN ELIMINADA";
+"SQL_DeletedAddress_Msg" = "Dirección eliminada..";
+"SQL_BlankTableError_Title" = "ERROR DE LA BASE DE DATOS";
+"SQL_BlankTableError_Msg" = "SQL TABLE name can't be blank if saveToDefaults = false.";
+"SQL_TreatEditError1_Title" = "ERROR DE LA BASE DE DATOS";
+"SQL_TreatEditError1_Msg" = "'saveToDefaults' and 'treatAsEdit' can't both be true.";
+"SQL_TreatEditError2_Title" = "ERROR DE LA BASE DE DATOS";
+"SQL_TreatEditError2_Msg" = "'saveToDefaults' and 'treatAsEdit' can't both be false.";
+"SQL_UpdateDBError_Title" = "ERROR DE LA BASE DE DATOS";
+"SQL_UpdateDBError_Msg" = "No se pudo crear copia de seguridad de base de datos, actualización abortado.\n\nContacto con el soporte técnico tan pronto como sea posible.\n\nSu aplicación no funcionará correctamente, podría perder datos o aplicación se bloqueará si seguir utilizándolo.";
+"SQL_UpdatingDB_Msg" = "Base de datos de actualización";
+"SQL_TableCreateError_Msg" = "Se ha producido un error al crear la tabla ";
+"SQL_TableRenameError_Msg" = "Se ha producido un error de cambiar el nombre de la tabla ";
+"SQL_TableDeleteError_Msg" = "Se ha producido un error al eliminar la tabla ";
+"SQL_TableUpdateError_Msg" = "Se produjo un error mesa de actualización ";
+"SQL_UpdatedDB_Title" = "ACTUALIZACIÓN DE LA BASE DE DATOS";
+"SQL_UpdatedDB_Msg" = "Su base de datos se ha actualizado a la versión actual.";
+
+// MARK: ├─➤ SHOPPING CART
+"CART_Error_Title" = "CARRITO DE COMPRAS";
+"CART_Error_Msg" = "Algo salió mal. Inténtalo de nuevo.";
+"CART_AddError_Title" = "CARRITO DE COMPRAS";
+"CART_AddError_Msg" = "No se pudo añadir el artículo a la cesta. Inténtalo de nuevo.";
+"CART_Empty_Title" = "¿CARRO VACIO?";
+"CART_Empty_Msg" = "¿Está seguro de que desea borrar todos los artículos en su carrito de compras?";
+"CART_Emptied_Title" = "CARRITO DE COMPRAS";
+"CART_Emptied_Msg" = "Todos los artículos retirados.";
+"CART_DeleteItem_Title" = "CARRITO DE COMPRAS";
+"CART_DeleteItem_Msg" = "Eliminar este artículo de su carrito de la compra?";
+"CART_DeletedItem_Title" = "CARRITO DE COMPRAS";
+"CART_DeletedItem_Msg" = "Se elimina el elemento de su carrito de compras.";
+"CART_NotFoundItem_Title" = "CARRITO DE COMPRAS";
+"CART_NotFoundItem_Msg" = "No hay artículos en su cesta.";
+"CART_Checkout_Title" = "Revisa";
+
+

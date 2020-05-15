@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PDFViewer-->
+        <scene sceneID="jAZ-id-DvA">
+            <objects>
+                <viewController storyboardIdentifier="PDFViewer" title="PDFViewer" extendedLayoutIncludesOpaqueBars="YES" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2QS-qw-twP" userLabel="PDFViewer" customClass="PDFViewer" customModule="SF_Admin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PkD-HV-xl9"/>
+                        <viewControllerLayoutGuide type="bottom" id="ij7-kr-ceW"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="slM-PX-q9W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yFB-WG-TBh" customClass="PDFView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <navigationBar opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ple-Ji-L10">
+                                <rect key="frame" x="15" y="5" width="345" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.33000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Page 0 of 0" id="Fcf-ZF-Wbl">
+                                        <barButtonItem key="leftBarButtonItem" title="Share" id="Pf1-Wy-7Gr">
+                                            <connections>
+                                                <action selector="shareMenu:" destination="2QS-qw-twP" id="gt5-4p-qQV"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Close" id="OoE-42-L6g">
+                                            <connections>
+                                                <action selector="closeView:" destination="2QS-qw-twP" id="RS1-KJ-GLk"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A0z-FM-9Id" customClass="PDFThumbnailView">
+                                <rect key="frame" x="15" y="562" width="345" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.66000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="yTy-cB-yMg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="A0z-FM-9Id" firstAttribute="leading" secondItem="slM-PX-q9W" secondAttribute="leading" constant="15" id="H5H-dM-JD4"/>
+                            <constraint firstItem="Ple-Ji-L10" firstAttribute="leading" secondItem="slM-PX-q9W" secondAttribute="leading" constant="15" id="STi-iZ-S2z"/>
+                            <constraint firstItem="ij7-kr-ceW" firstAttribute="top" secondItem="A0z-FM-9Id" secondAttribute="bottom" constant="5" id="TM1-7M-Elf"/>
+                            <constraint firstItem="yFB-WG-TBh" firstAttribute="leading" secondItem="slM-PX-q9W" secondAttribute="leading" id="iPo-Ub-0hI"/>
+                            <constraint firstItem="yFB-WG-TBh" firstAttribute="top" secondItem="PkD-HV-xl9" secondAttribute="bottom" id="jGi-5r-yqF"/>
+                            <constraint firstAttribute="trailing" secondItem="A0z-FM-9Id" secondAttribute="trailing" constant="15" id="nMs-bS-tre"/>
+                            <constraint firstItem="ij7-kr-ceW" firstAttribute="top" secondItem="yFB-WG-TBh" secondAttribute="bottom" id="rjj-fo-lkG"/>
+                            <constraint firstAttribute="trailing" secondItem="Ple-Ji-L10" secondAttribute="trailing" constant="15" id="uKf-8A-1hB"/>
+                            <constraint firstItem="Ple-Ji-L10" firstAttribute="top" secondItem="PkD-HV-xl9" secondAttribute="bottom" constant="5" id="vLN-Tz-LFU"/>
+                            <constraint firstAttribute="trailing" secondItem="yFB-WG-TBh" secondAttribute="trailing" id="waI-SI-CYm"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btn_Close" destination="OoE-42-L6g" id="tgg-mW-Syt"/>
+                        <outlet property="btn_Share" destination="Pf1-Wy-7Gr" id="RWj-dQ-GYZ"/>
+                        <outlet property="navBar" destination="Ple-Ji-L10" id="EbL-yB-L4h"/>
+                        <outlet property="pdfView" destination="yFB-WG-TBh" id="x3A-Z3-NHr"/>
+                        <outlet property="thumbnailView" destination="A0z-FM-9Id" id="Y86-yb-nGL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z5z-Xn-flh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1135.2" y="519.49025487256381"/>
+        </scene>
+    </scenes>
+</document>

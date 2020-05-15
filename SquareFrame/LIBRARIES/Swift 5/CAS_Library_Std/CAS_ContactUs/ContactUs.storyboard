@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--VC_ContactUs-->
+        <scene sceneID="FhD-4Z-3IF">
+            <objects>
+                <viewController storyboardIdentifier="VC_ContactUs" title="VC_ContactUs" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="y4T-OZ-jPt" userLabel="VC_ContactUs" customClass="VC_ContactUs" customModule="SquareFrame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PNb-0l-r0n"/>
+                        <viewControllerLayoutGuide type="bottom" id="kIh-6s-2GP"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="arW-Y8-UML">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o0H-oZ-N0m" userLabel="vw Contact">
+                                <rect key="frame" x="237" y="557" width="550" height="252"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EiO-ue-fwQ" userLabel="HEADER">
+                                        <rect key="frame" x="0.0" y="0.0" width="550" height="42"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Lmw-JY-19L">
+                                                <rect key="frame" x="0.0" y="0.0" width="514" height="42"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="24"/>
+                                                </variation>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZd-Qu-aft">
+                                                <rect key="frame" x="513" y="0.0" width="37" height="42"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="btnClose"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="37" id="gnd-Rm-pN2"/>
+                                                </constraints>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" image="Close"/>
+                                                <connections>
+                                                    <action selector="close:" destination="y4T-OZ-jPt" eventType="touchUpInside" id="tu7-Wg-jAM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="XZd-Qu-aft" secondAttribute="trailing" id="3X7-wf-TJU"/>
+                                            <constraint firstItem="Lmw-JY-19L" firstAttribute="top" secondItem="EiO-ue-fwQ" secondAttribute="top" id="9pF-qv-7V0"/>
+                                            <constraint firstAttribute="trailing" secondItem="Lmw-JY-19L" secondAttribute="trailing" constant="36" id="EIP-hj-JjB"/>
+                                            <constraint firstItem="Lmw-JY-19L" firstAttribute="leading" secondItem="EiO-ue-fwQ" secondAttribute="leading" id="JbC-dh-BYm"/>
+                                            <constraint firstAttribute="bottom" secondItem="XZd-Qu-aft" secondAttribute="bottom" id="MSh-hP-bkA"/>
+                                            <constraint firstAttribute="height" constant="37" id="Wqu-b8-5Ag">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="42"/>
+                                            </constraint>
+                                            <constraint firstItem="XZd-Qu-aft" firstAttribute="top" secondItem="EiO-ue-fwQ" secondAttribute="top" id="X45-ZQ-zyG"/>
+                                            <constraint firstAttribute="bottom" secondItem="Lmw-JY-19L" secondAttribute="bottom" id="tRr-Jd-MqM"/>
+                                        </constraints>
+                                    </view>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBA-mv-zuS">
+                                        <rect key="frame" x="20" y="61" width="74" height="74"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="btnEmail"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="M4T-Sh-23X">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="74"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" constant="50" id="zHz-gK-l9F">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="74"/>
+                                            </constraint>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="Email">
+                                            <color key="titleColor" red="0.048326816410000001" green="0.22469468409999999" blue="0.4888136387" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="contactUs:" destination="y4T-OZ-jPt" eventType="touchUpInside" id="c5r-qy-Qdf"/>
+                                        </connections>
+                                    </button>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYY-sA-xFS">
+                                        <rect key="frame" x="20" y="157" width="74" height="74"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="btnWebsite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="TPr-9E-kJH">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="74"/>
+                                            </constraint>
+                                            <constraint firstAttribute="width" constant="50" id="dSM-eZ-naf">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="74"/>
+                                            </constraint>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="WebsiteUnselected">
+                                            <color key="titleColor" red="0.048326816410000001" green="0.22469468409999999" blue="0.4888136387" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="web:" destination="y4T-OZ-jPt" eventType="touchUpInside" id="VSA-LG-Vf0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email us with your comments, questions or to suggest ideas." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qhj-jC-bEz">
+                                        <rect key="frame" x="104" y="61" width="426" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="0Fg-1l-uqy">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visit our website for more about our products." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCM-mn-Dfa">
+                                        <rect key="frame" x="104" y="158" width="426" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="o9N-0R-rG4">
+                                                <variation key="heightClass=regular-widthClass=regular" constant="75"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="EiO-ue-fwQ" secondAttribute="trailing" id="6Nn-3o-Eyj"/>
+                                    <constraint firstItem="cBA-mv-zuS" firstAttribute="top" secondItem="EiO-ue-fwQ" secondAttribute="bottom" constant="19" id="8ZM-Ie-qZv"/>
+                                    <constraint firstItem="aYY-sA-xFS" firstAttribute="leading" secondItem="o0H-oZ-N0m" secondAttribute="leading" constant="10" id="KJl-xv-HGH">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                    </constraint>
+                                    <constraint firstItem="eCM-mn-Dfa" firstAttribute="top" secondItem="qhj-jC-bEz" secondAttribute="bottom" constant="22" id="Ka6-rX-kFG"/>
+                                    <constraint firstItem="aYY-sA-xFS" firstAttribute="top" secondItem="cBA-mv-zuS" secondAttribute="bottom" constant="22" id="L9c-0J-tIt"/>
+                                    <constraint firstItem="cBA-mv-zuS" firstAttribute="leading" secondItem="o0H-oZ-N0m" secondAttribute="leading" constant="10" id="WHg-ib-IsD">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                    </constraint>
+                                    <constraint firstItem="eCM-mn-Dfa" firstAttribute="leading" secondItem="aYY-sA-xFS" secondAttribute="trailing" constant="10" id="ZIW-0g-8Vi"/>
+                                    <constraint firstAttribute="height" constant="200" id="bXc-56-uim">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="252"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="300" id="dKy-I2-Y7E">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="550"/>
+                                    </constraint>
+                                    <constraint firstItem="qhj-jC-bEz" firstAttribute="leading" secondItem="cBA-mv-zuS" secondAttribute="trailing" constant="10" id="ekB-6t-dD9"/>
+                                    <constraint firstAttribute="trailing" secondItem="eCM-mn-Dfa" secondAttribute="trailing" constant="10" id="euP-ao-nRK">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="qhj-jC-bEz" secondAttribute="trailing" constant="10" id="hGd-lv-5xa">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                    </constraint>
+                                    <constraint firstItem="EiO-ue-fwQ" firstAttribute="leading" secondItem="o0H-oZ-N0m" secondAttribute="leading" id="idy-JD-AtX"/>
+                                    <constraint firstItem="qhj-jC-bEz" firstAttribute="top" secondItem="EiO-ue-fwQ" secondAttribute="bottom" constant="19" id="qNE-J4-y4y"/>
+                                    <constraint firstItem="EiO-ue-fwQ" firstAttribute="top" secondItem="o0H-oZ-N0m" secondAttribute="top" id="udb-KL-jb5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="o0H-oZ-N0m" firstAttribute="centerX" secondItem="arW-Y8-UML" secondAttribute="centerX" id="TU5-19-vxm"/>
+                            <constraint firstItem="o0H-oZ-N0m" firstAttribute="centerY" secondItem="arW-Y8-UML" secondAttribute="centerY" id="sLK-Bb-6Lp"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="btn_Done" destination="XZd-Qu-aft" id="YUd-Cn-v3c"/>
+                        <outlet property="btn_Mail" destination="cBA-mv-zuS" id="jIF-8q-xTD"/>
+                        <outlet property="btn_Web" destination="aYY-sA-xFS" id="Bqf-jv-7fX"/>
+                        <outlet property="lbl_Email" destination="qhj-jC-bEz" id="xkw-IY-BSx"/>
+                        <outlet property="lbl_Title" destination="Lmw-JY-19L" id="OQw-qO-3s2"/>
+                        <outlet property="lbl_Web" destination="eCM-mn-Dfa" id="ect-55-7PX"/>
+                        <outlet property="vw_ContactUs" destination="o0H-oZ-N0m" id="5TI-uw-rLy"/>
+                        <outlet property="vw_Header" destination="EiO-ue-fwQ" id="Dba-6r-ShU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYG-Gn-xJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3003.75" y="-163.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Close" width="27.5" height="27.5"/>
+        <image name="Email" width="63" height="63"/>
+        <image name="WebsiteUnselected" width="63" height="63"/>
+    </resources>
+</document>

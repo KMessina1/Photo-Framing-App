@@ -1,0 +1,460 @@
+/* zh-Hans (CHINESE SIMPLIFIED) CAS-Library Localized Strings */
+
+//Mark: - *** GENERAL TERMS *** -
+// MARK: ├─➤ RATE THIS APP
+"RATE_Title" = "率 %@";
+"RATE_Msg" = "如果你喜欢使用％@你介意花一些时间给它吗？\n\n谢谢您的支持！";
+"RATE_Btn_Rate" = "率 现在";
+"RATE_Btn_Remind" = "稍后提醒我";
+"RATE_Btn_No" = "不用了，谢谢";
+
+// MARK: ├─➤ ALERT BUTTONS
+"OK" = "好";
+"Yes" = "是";
+"No" = "没有";
+"Cancel" = "取消";
+"Choose" = "选择";
+"Add" = "加";
+"Add new" = "Add New";
+"Edit" = "编辑";
+"Save" = "保存";
+"Update" = "更新";
+"Delete" = "删除";
+"All" = "所有";
+"Clear" = "明确";
+"Clear Info" = "清除信息";
+"Clear_Msg" = "永久删除显示的所有信息？";
+"Done" = "Done";
+"View" = "View";
+"Reset" = "Reset";
+"Required" = "Required";
+"Settings" = "Settings";
+"Success" = "Success";
+"Failed" = "Failed";
+
+// MARK: ├─➤ WAIT MESSAGES
+"WAIT_PLEASE_WAIT" = "Please Wait";
+"WAIT_DOWNLOADING" = "Downloading";
+"WAIT_DOWNLOADING_IMG" = "Downloading Photo";
+"WAIT_DOWNLOADING_IMGS" = "Downloading Photos";
+"WAIT_DOWNLOADING_THUMBNAIL" = "Downloading Thumbnail";
+"WAIT_DOWNLOADING_THUMBNAILS" = "Downloading Thumbnails";
+"WAIT_UPLOADING" = "Uploading";
+"WAIT_UPLOADING_IMG" = "Uploading Photo";
+"WAIT_UPLOADING_IMGS" = "Uploading Photos";
+"WAIT_UPDATING_CART" = "Updating Cart";
+"WAIT_UPDATING_ORDER" = "Updating Order";
+"WAIT_DOWNLOADING_Followers" = "Downloading Followers";
+"WAIT_LOGIN" = "Logging into account";
+"WAIT_ORDERS" = "Getting Order History";
+"WAIT_ORDERS_INFO" = "Getting Order Info";
+"WAIT_CUSTOMER_Get" = "Getting Customer";
+"WAIT_CUSTOMER_Delete" = "Deleting Customer";
+"WAIT_CUSTOMER_Edit" = "Editing Customer";
+"WAIT_PRODUCTS_INFO" = "Checking Product Availability";
+"Wait.Server.Available" = "Server Availability";
+
+// MARK: ├─➤ LOGIN
+"Login" = "登录";
+"Logout" = "登出";
+"NotLoggedIn" = "（未登录）";
+"ERROR_BlankUsername" = "ERROR: No Username";
+"ERROR_BlankPassword" = "ERROR: No Password";
+"Login_UserNameAndPassword" = "Enter Username and Password";
+
+// MARK: ├─➤ ADDRESSES
+"Name" = "名称";
+"Address" = "地址";
+"City" = "市";
+"State" = "州";
+"Province" = "省";
+"Zip" = "压缩";
+"Zip Code" = "邮政编码";
+"Postal" = "邮政";
+"Postal Code" = "邮政编码";
+"Country" = "国家";
+"Phone" = "电话";
+"Phone Number" = "电话号码";
+"Email" = "电子邮件";
+"First Name" = "名字";
+"Last Name" = "姓";
+"Address Line 1" = "地址栏1";
+"Address Line 2" = "地址行2";
+"Phone Number with Area Code" = "带区号电话号码";
+"Email Address" = "电子邮件地址";
+"Acct. Nickname" = "科目。 昵称";
+"Account Nickname" = "账户昵称";
+"Go back & fix" = "回去和修复";
+"Exit and don't save" = "退出不保存";
+"INCOMPLETE ADDRESS" = "地址不完整";
+"INCOMPLETE INFO" = "不完全信息";
+"RegionCode" = "地区代码";
+"Nickname" = "昵称";
+"AccountNickname_Reserved" = "输入的帐户昵称已保留，无法使用。 请输入新的。";
+"Enter Address" = "Enter Address";
+"Address from Contacts" = "Address from Contacts";
+
+// MARK: ├─➤ CHECKOUT
+"Ship to" = "Ship to";
+"Payment" = "Payment";
+"Gift_Title" = "Is this a gift?";
+"Gift_Msg" = "Gift Message";
+"Gift Message" = "Gift Message";
+"Promo_Code_Optional" = "Promo Code (Optional)";
+"MailingList" = "Join our mailing list.";
+"Select" = "Select";
+"default" = "default";
+"shipping_std" = "Standard $5 (3-5 days)";
+"shipping_priority" = "Priority $10 (1-2 days)";
+"buy" = "Buy";
+"purchase" = "Purchase";
+"place your order" = "Place your order";
+"Complete Order" = "Complete Order";
+"Complete Your Order" = "Complete Your Order";
+"Complete Purchase" = "Complete Purchase";
+"gift_msg" = "Gift Message";
+"Customer" = "Customer";
+"Gift_SaveTitle" = "Gift Message";
+"Gift_SaveMsg" = "Do you want to save your changes?";
+"Order_Details" = "Order Details";
+"Order_Receipt_Display" = "Your order has been received and is processing.\n\nA copy has been sent to your email for your records.\n\nDo you want to view now?";
+"Search for:" = "Search for:";
+"Checkout_Terms" = "By completing your order, you agree to\nSquareframe's Privacy Policy and Terms of Use.";
+
+// MARK: ├─➤ BILLING / SHIPPING
+"Address_Invalid_Title" = "INVALID ADDRESS";
+"Address_Invalid_Msg" = "Please check the address entered, could not be found. You can Edit from the Account Info screen.";
+"SalesTax_Error_Title" = "SALES TAX ERROR";
+"SalesTax_Error_Msg" = "Server is busy. Please wait a minute and try again.";
+"SalesTax_UnknownError_Title" = "SALES TAX ERROR";
+"SalesTax_UnknownError_Msg" = "An unknown error occurred looking for the address entered.";
+"BillShipTo_Title" = "帐户信息";
+"BillShipTo_MyInfo" = "我的信息";
+"BillShipTo_BillInfo" = "账单信息";
+"BillShipTo_ShipInfo" = "航运信息";
+"BillShipTo_Section_Name" = "名称和地址";
+"BillShipTo_Section_Instagram" = "Instagram的账户";
+"BillShipTo_Section_DefaultAddress" = "帐单地址";
+"BillShipTo_Section_CreditCards" = "信用卡";
+"BillShipTo_EditMyAddress" = "我的地址";
+"BillShipTo_EditBillingAddress" = "帐单地址";
+"BillShipTo_EditShippingAddress" = "邮寄地址";
+"BillShipTo_EditCreditCard" = "信用卡";
+"BillShipTo_ShippingAddressMenu" = "送货地址";
+"BillShipTo_CreditCardsMenu" = "信用卡";
+"BillShipTo_CreditCardsMenuAddNew" = "加";
+"BillShipTo_CreditCardsMenuEdit" = "编辑";
+"BillShipTo_CreditCardsMenuDelete" = "删除";
+"BillShipTo_CreditCards_CardNum" = "卡号";
+"BillShipTo_CreditCards_ExpMonth" = "到期月份";
+"BillShipTo_CreditCards_ExpYear" = "过期年份";
+"BillShipTo_CreditCards_CVN" = "卡片识别号";
+"BillShipTo_CreditCards_Name" = "卡片上的名字";
+"BillShipTo_CreditCards_Nickname" = "卡的昵称";
+"BillShipTo_ShippingAddressMenuAddNew" = "加";
+"BillShipTo_ShippingAddressMenuEdit" = "编辑";
+"BillShipTo_ShippingAddressMenuDelete" = "删除";
+"BillShipTo_BillingAddressMenu" = "帐单地址";
+"BillShipTo_BillingAddressMenuSameAs" = "使用我的信息地址";
+"BillShipTo_BillingAddressMenuSameAsMyInfo" = "Same as my Address";
+"BillShipTo_BillingAddressMenuEdit" = "编辑";
+"BillShipTo_BillingAddressCopiedSameAs" = "帐单地址";
+"BillShipTo_BillingAddressCopiedMsg" = "复制我的信息的地址。";
+"BillShipTo_MyInfoBlank" = "Please enter your account Name & Address information.";
+"BillShipTo_BillInfoBlank" = "Please enter your billing Name & Address information or use your account Name & Address if the same.";
+"BillShipTo_Contact" = "Contact";
+"BillShipTo_Billing" = "Billing";
+"BillShipTo_Shipping" = "Shipping";
+"BillShipTo_Payment" = "Payment";
+"BillShipTo_Summary" = "Summary";
+
+// MARK: ├─➤ eCOMMERCE COUPONS
+"Apply" = "Apply";
+"Coupon" = "Coupon";
+"discount" = "Discount";
+"free" = "FREE";
+"undefined" = "undefined";
+"most expensive item" = "most expensive item";
+"entire order" = "entire order";
+"shipping" = "shipping";
+"all items" = "all items";
+"off" = "off";
+"Coupon.Inactive" = "Inactive - Promo code is no longer active.";
+"Coupon.Invalid" = "Invalid - Promo code is no longer valid.";
+"Coupon.Expired" = "Expired - Promo code is expired.";
+"Coupon.NotFound" = "Not Found - Check Promo Code entered correctly.";
+"Coupon.LimitOnePer" = "Limit one per person. You have redeemed this coupon already.";
+"Coupon.AlreadyEntered"= "You can only use one promo code per order.";
+
+// MARK: ├─➤ IN-APP PURCHASES / eCOMMERCE
+"item" = "项目";
+"items" = "项目";
+"in cart" = "在车";
+"AppStore" = "应用商店";
+"iPhone" = "iPhone";
+"iPad" = "iPad";
+"Watch" = "Watch";
+"TV" = "TV";
+
+// MARK: ├─➤ CREDIT CARDS
+"CreditCard" = "信用卡";
+"CreditCards" = "信用卡";
+"Card Number" = "卡号";
+"Name on card" = "卡片上的名字";
+"Nickname of card" = "卡的昵称";
+"Verification" = "验证";
+"CVN" = "CVN:";
+"CVN (Security Code)" = "CVN (Security Code)";
+"Card Verification Number" = "卡片识别号";
+"Exp" = "Exp:";
+"Expiration Month" = "到期月份";
+"Expiration Year" = "过期年份";
+"Type" = "类型";
+"Price" = "价钱";
+"Amount" = "量";
+"Quantity" = "数量";
+"EmptyCart" = "空购物车";
+"Checkout" = "查看";
+"Expired" = "Expired";
+"ExpiredCard_Title" = "EXPIRED CARD";
+"ExpiredCard_Msg" = "Your credit card is expired and cannot be used. You can Edit card information from the Account Info screen.";
+
+// MARK: ├─➤ CALENDAR
+"Month" = "月";
+"Year" = "年";
+"January" = "一月";
+"February" = "二月";
+"March" = "游行";
+"April" = "四月";
+"May" = "可能";
+"June" = "六月";
+"July" = "七月";
+"August" = "八月";
+"September" = "九月";
+"October" = "十月";
+"November" = "十一月";
+"December" = "十二月";
+
+// MARK: ├─➤ SERVER
+"SERVER_InfoNotFound_Title" = "SERVER ERROR";
+"SERVER_InfoNotFound_Msg" = "Information not found on server.";
+
+// MARK: ├─➤ PHOTOS
+"Size" = "尺寸";
+"size" = "尺寸";
+"Color" = "颜色";
+"Photo" = "照片";
+"photo" = "照片";
+"Preview" = "预习";
+"PhotoLibrary_Title" = "Photo Library";
+"PhotoLibrary_NoAccess" = "Photo access is turned off in System Settings.";
+
+// MARK: ├─➤ INSTAGRAM
+"Currently viewing" = "Currently viewing";
+"photos of" = "photos of";
+"Currently viewing Photos of" = "目前浏览的照片";
+"Instagram_Login" = "Instagram Login";
+"Instagram_LoginFailure_Title" = "INVALID LOGIN";
+"Instagram_LoginFailure_Msg" = "Login failed.";
+"Instagram_Following" = "Following...";
+"Instagram_Menu_Faves" = "Show ♥ Only";
+"Instagram_Menu_ShowAll" = "Show All";
+"Instagram_Menu_Logout" = "Logout of Instagram";
+"Instagram_Menu_ChangeAccount" = "Change Instagram Account";
+"Instagram_Menu_Title" = "Filter Photos";
+"Instagram_Login_Loading" = "Instagram Login Loading...";
+
+// MARK: ├─➤ CONTACT US
+"Contact" = "联系";
+"ContactUs" = "联系我们";
+"ContactUs_Email" = "给我们发电子邮件与您的意见，问题或建议的想法。";
+"ContactUs_Contact" = "联系我们与您的意见，问题或建议的想法。";
+"ContactUs_Website" = "请访问我们的网站，了解我们的产品。";
+
+// MARK: ├─➤ ABOUT
+"About" = "关于此应用";
+"About_Section_Application" = "应用";
+"About_Section_Device" = "设备";
+"About_Section_Databases" = "数据库";
+"About_Section_Libraries" = "Frameworks";
+"About_Section_ExtLibraries" = "外部库";
+
+// MARK: ├─➤ MENUS
+"Orders" = "命令";
+"Home" = "家";
+"Help" = "帮帮我";
+"Account" = "帐户";
+
+// MARK: ├─➤ GESTURES
+"Tap To Change" = "点击更改";
+
+// MARK: ├─➤ MISCELLANEOUS
+"Set as default" = "设为默认";
+"Select Color" = "Select Color";
+"Truncated..." = "Truncated...";
+"version" = "version";
+"Version" = "Version";
+"cannot be more than" = "cannot be more than";
+"error.unkown_Title" = "ERROR";
+"error.unkown_Msg" = "An unknown error occurred.";
+"error.PHP_Title" = "PhP SCRIPT ERROR";
+"error.PHP_Msg" = "An unknown error occurred.";
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// MARK: - *** ALERT MESSAGES *** -
+// MARK: ├─➤ APP STORE
+"APPSTORE_NewVerAvail_Title" = "有新版本可用";
+"APPSTORE_NewVerAvail_Msg" = "Update安装新的功能和/或修复。";
+"APPSTORE_NewVerAvail_OK" = "更新";
+"APPSTORE_NewVerAvail_Cancel" = "跳跃";
+
+// MARK: ├─➤ FILES
+"FILE_Error_Title" = "文件错误";
+"FILE_Error_Msg" = "发生了文件错误。";
+"FILE_NotFound_Title" = "文件错误";
+"FILE_NotFound_Msg" = "文件未找到。";
+"FILE_NotFoundMainbundle_Title" = "文件错误";
+"FILE_NotFoundMainbundle_Msg" = " 不能在主束被发现。从AppStore的页面跟开发人员。";
+"FILE_NotFound" = " not found.";
+"FILE_Download_Title" = "FILE DOWNLOAD";
+"FILE_Download_Msg" = "Error downloading document to device.";
+"FILE_Downloaded_Title" = "FILE DOWNLOADED";
+"FILE_Downloaded_Msg" = "downloaded to device.";
+"FILE_DeleteError_Title" = "FILE DELETION ERROR";
+"FILE_DeleteError_Msg" = "File was not deleted.";
+
+// MARK: ├─➤ SERVER
+"SERVER_InfoNotFound_Title" = "SERVER ERROR";
+"SERVER_InfoNotFound_Msg" = "Information not found on server.";
+"SERVER_Script_Error" = "Error creating script URL.\n\n";
+"SERVER_Script_ErrorRetreiving" = "Error retrieving info from server.";
+
+// MARK: ├─➤ PHOTOS
+"IMAGE_GetError_Title" = "照片错误";
+"IMAGE_GetError_Msg" = "时出错获取照片。";
+"IMAGE_SaveError_Title" = "照片错误";
+"IMAGE_SaveError_Msg" = "有以文件名为错误保存图像 ";
+"IMAGE_SaveThumbError_Title" = "照片错误";
+"IMAGE_SaveThumbError_Msg" = "有以文件名为错误保存图像 ";
+"IMAGE_NotFound_Title" = "照片错误";
+"IMAGE_NotFound_Msg" = "找不到照片。";
+
+// MARK: ├─➤ EMAIL
+"EMAIL_NoAccess_Title" = "NO电子邮件访问";
+"EMAIL_NoAccess_Msg" = "电子邮件帐户此时无效或无法访问。";
+"EMAIL_Sent_Title" = "邮件已发送";
+"EMAIL_Sent_Msg" = "邮件已发送。";
+"EMAIL_ComposeError_Title" = "电子邮件错误";
+"EMAIL_ComposeError_Msg" = "撰写电子邮件时失败。";
+"EMAIL_UnknownError_Title" = "电子邮件错误";
+"EMAIL_UnknownError_Msg" = "撰写电子邮件时失败。";
+"EMAIL_Attachment_Title" = "EMAIL ERROR";
+"EMAIL_Attachment_Msg" = "Invalid Attachment.";
+"EMAIL_Cancelled_Title" = "EMAIL CANCELLED";
+"EMAIL_Cancelled_Msg" = "Email cancelled and not sent.";
+
+// MARK: ├─➤ FEATURE UNAVAILABLE IN SIMULATOR
+"SIM_FeatureNotAvail_Title" = "SIMULATOR";
+"SIM_FeatureNotAvail_Msg" = "Feature is not available in the Simulator.";
+
+// MARK: ├─➤ FEATURE UNAVAILABLE
+"FEATURE_NotImplemented_Title" = "不可用";
+"FEATURE_NotImplemented_Msg" = "特征尚未实现。";
+"UnsupportedLanguage_Title" = "Unsupported Language";
+"UnsupportedLanguage_Msg" = "The language your device is set to is not supported for this feature.";
+
+// MARK: ├─➤ Social Media UNAVAILABLE
+"NotAvailable_SMS_Title" = "SMS/TEXTING ERROR";
+"NotAvailable_SMS_Msg" = "SMS services are not available";
+"NotAvailable_Mail_Title" = "MAIL ERROR";
+"NotAvailable_Mail_Msg" = "Mail services are not available";
+"Login_Facebook_Title" = "FACEBOOK ACCOUNT";
+"Login_Facebook_Msg" = "Please log in.";
+"NotAvailable_Facebook_Title" = "FACEBOOK ERROR";
+"NotAvailable_Facebook_Msg" = "Facebook services are not available";
+"Login_Twitter_Title" = "TWITTER ACCOUNT";
+"Login_Twitter_Msg" = "Please log in.";
+"NotAvailable_Twitter_Title" = "TWITTER ERROR";
+"NotAvailable_Twitter_Msg" = "Twitter services are not available";
+"SocialMedia_Thanks_Title" = "THANK YOU!";
+"SocialMedia_Thanks_Msg" = "\nThanks for sharing Squareframe.";
+"SocialMedia_Thanks_Copied" = "\nLink copied to pasteboard. Thanks for sharing Squareframe.";
+
+// MARK: ├─➤ INTERNET
+"INTERNET_NotConnected_Title" = "互联网错误";
+"INTERNET_NotConnected_Msg" = "您必须连接到互联网来查看此页面。";
+"INTERNET_NotConnectedChangeInfo_Msg" = "您必须连接到互联网才能更改此信息。";
+
+// MARK: ├─➤ PRINTER
+"PRINTER_Sent_Title" = "印刷...";
+"PRINTER_Sent_Msg" = "被选择的文档发送到打印机。";
+"PRINTER_NotConnected_Title" = "打印机错误";
+"PRINTER_NotConnected_Msg" = "没有有效的打印机找到或无法访问网络。";
+"PRINTER_DomainError_Title" = "打印机错误";
+"PRINTER_DomainError_Msg" = "打印失败，因为该域名 {ERROR_DOMAIN} 错误，错误代码 {ERROR_CODE}";
+
+// MARK: ├─➤ DOCUMENTS/PDF
+"PDF_NotFound_Title" = "文档错误";
+"PDF_NotFound_Msg" = "请求的文档没有被发现。";
+"PDF_NotFound_MsgWithFilename" = " 没找到。";
+
+// MARK: ├─➤ SQL
+"SQL_GetError_Title" = "得到错误";
+"SQL_GetError_Msg" = "未能获得，发生了错误。";
+"SQL_SaveError_Title" = "保存出错";
+"SQL_SaveError_Msg" = "无法保存，发生了错误。";
+"SQL_DeleteError_Title" = "删除故障";
+"SQL_DeleteError_Msg" = "无法删除时，发生错误。";
+"SQL_Delete_Title" = "删除?";
+"SQL_Delete_Msg" = "删除 ";
+"SQL_Delete_Ok" = "删除";
+"SQL_Delete_Cancel" = "没有";
+"SQL_UpdateCC_Title" = "信用卡已更新";
+"SQL_UpdateCC_Msg" = "卡更新。";
+"SQL_AddedCC_Title" = "卡而增加";
+"SQL_AddedCC_Msg" = "卡而增加。";
+"SQL_DeletedCC_Title" = "卡中删除";
+"SQL_DeletedCC_Msg" = "卡中删除。.";
+"SQL_UpdateAddress_Title" = "地址已更新";
+"SQL_UpdateAddress_Msg" = "地址已更新。";
+"SQL_AddedAddress_Title" = "地址的添加";
+"SQL_AddedAddress_Msg" = "地址的添加。.";
+"SQL_DeletedAddress_Title" = "删除地址";
+"SQL_DeletedAddress_Msg" = "地址删除。";
+"SQL_BlankTableError_Title" = "DATABASE ERROR";
+"SQL_BlankTableError_Msg" = "SQL TABLE name can't be blank if saveToDefaults = false.";
+"SQL_TreatEditError1_Title" = "DATABASE ERROR";
+"SQL_TreatEditError1_Msg" = "'saveToDefaults' and 'treatAsEdit' can't both be true.";
+"SQL_TreatEditError2_Title" = "DATABASE ERROR";
+"SQL_TreatEditError2_Msg" = "'saveToDefaults' and 'treatAsEdit' can't both be false.";
+"SQL_UpdateDBError_Title" = "数据库错误";
+"SQL_UpdateDBError_Msg" = "无法创建数据库的备份副本，更新中止。\n\n尽快联系技术支持。\n\n您的应用程序将无法正常运行，可能会丢失数据或者如果你继续使用它的应用程序会崩溃。";
+"SQL_UpdatingDB_Msg" = "Updating database";
+"SQL_TableCreateError_Msg" = "An error occured creating table ";
+"SQL_TableRenameError_Msg" = "An error occured renaming table ";
+"SQL_TableDeleteError_Msg" = "An error occured deleting table ";
+"SQL_TableUpdateError_Msg" = "An error occured updating table ";
+"SQL_UpdatedDB_Title" = "DATABASE UPGRADE";
+"SQL_UpdatedDB_Msg" = "Your database has been updated to the current version.";
+
+// MARK: ├─➤ SHOPPING CART
+"CART_Error_Title" = "购物车";
+"CART_Error_Msg" = "出了些问题。 再试一次。";
+"CART_AddError_Title" = "购物车";
+"CART_AddError_Msg" = "无法到购物车添加项目。 再试一次。";
+"CART_Empty_Title" = "空购物车？";
+"CART_Empty_Msg" = "你确定要删除您的购物车中的所有项目？";
+"CART_Emptied_Title" = "购物车";
+"CART_Emptied_Msg" = "所有项目中删除。";
+"CART_DeleteItem_Title" = "购物车";
+"CART_DeleteItem_Msg" = "删除您的购物车这个项目？";
+"CART_DeletedItem_Title" = "购物车";
+"CART_DeletedItem_Msg" = "从项目您的购物车中删除。";
+"CART_NotFoundItem_Title" = "购物车";
+"CART_NotFoundItem_Msg" = "有您的购物车中没有商品。";
+"CART_Checkout_Title" = "Checkout";
+
+

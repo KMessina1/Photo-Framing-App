@@ -1,0 +1,469 @@
+/* en (ENGLISH) CAS-Library Localized Strings */
+
+//Mark: - *** GENERAL TERMS ***
+// MARK: ├─➤ RATE THIS APP
+"RATE_Title" = "Rate %@";
+"RATE_Msg" = "If you enjoy using %@ would you mind taking a moment to rate it?\n\nThank you for your support!";
+"RATE_Btn_Rate" = "Rate now";
+"RATE_Btn_Remind" = "Remind me Later";
+"RATE_Btn_No" = "No, thanks";
+
+// MARK: ├─➤ ALERT BUTTONS
+"OK" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+"Cancel" = "Cancel";
+"Choose" = "Choose";
+"Add" = "Add";
+"Add new" = "Add New";
+"Edit" = "Edit";
+"Save" = "Save";
+"Update" = "Update";
+"Delete" = "Delete";
+"All" = "All";
+"Clear" = "Clear";
+"Clear Info" = "Clear Info";
+"Clear_Msg" = "Clear all entered information?";
+"Done" = "Done";
+"View" = "View";
+"SaveChanges?" = "Save Changes?";
+"Reset" = "Reset";
+"Required" = "Required";
+"Settings" = "Settings";
+"Success" = "Success";
+"Failed" = "Failed";
+
+// MARK: ├─➤ WAIT MESSAGES
+"WAIT_PLEASE_WAIT" = "Please Wait";
+"WAIT_DOWNLOADING" = "Downloading";
+"WAIT_DOWNLOADING_IMG" = "Downloading Photo";
+"WAIT_DOWNLOADING_IMGS" = "Downloading Photos";
+"WAIT_DOWNLOADING_THUMBNAIL" = "Downloading Thumbnail";
+"WAIT_DOWNLOADING_THUMBNAILS" = "Downloading Thumbnails";
+"WAIT_UPLOADING" = "Uploading";
+"WAIT_UPLOADING_IMG" = "Uploading Photo";
+"WAIT_UPLOADING_IMGS" = "Uploading Photos";
+"WAIT_UPDATING_CART" = "Updating Cart";
+"WAIT_UPDATING_ORDER" = "Updating Order";
+"WAIT_DOWNLOADING_Followers" = "Downloading Followers";
+"WAIT_LOGIN" = "Logging into account";
+"WAIT_ORDERS" = "Getting Order History";
+"WAIT_ORDERS_INFO" = "Getting Order Info";
+"WAIT_CUSTOMER_Get" = "Getting Customer";
+"WAIT_CUSTOMER_Delete" = "Deleting Customer";
+"WAIT_CUSTOMER_Edit" = "Updating Customer";
+"WAIT_ADDRESS_Edit" = "Updating Address";
+"WAIT_PRODUCTS_INFO" = "Checking Product Availability";
+"Wait.Server.Available" = "Server Availability";
+
+// MARK: ├─➤ LOGIN
+"Login" = "Login";
+"Logout" = "Logout";
+"NotLoggedIn" = "(Not Logged In)";
+"ERROR_BlankUsername" = "ERROR: No Username";
+"ERROR_BlankPassword" = "ERROR: No Password";
+"Login_UserNameAndPassword" = "Enter Username and Password";
+"Guest" = "Guest";
+"ERROR_BlankEmail" = "ERROR: No Email entered.";
+
+// MARK: ├─➤ ADDRESSES
+"Name" = "Name";
+"Address" = "Address";
+"City" = "City";
+"State" = "State";
+"Province" = "Province";
+"Zip" = "Zip";
+"Zip Code" = "Zip Code";
+"Postal" = "Postal";
+"Postal Code" = "Postal Code";
+"Country" = "Country";
+"Phone" = "Phone";
+"Phone Number" = "Phone Number";
+"Email" = "Email";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Address Line 1" = "Address Line 1";
+"Address Line 2" = "Address Line 2";
+"Phone Number with Area Code" = "Phone Number with Area Code";
+"Email Address" = "Email Address";
+"Acct. Nickname" = "Acct. Nickname";
+"Account Nickname" = "Account Nickname";
+"Go back & fix" = "Go back & fix";
+"Exit and don't save" = "Exit and don't save";
+"INCOMPLETE ADDRESS" = "INCOMPLETE ADDRESS";
+"INCOMPLETE INFO" = "INCOMPLETE INFO";
+"RegionCode" = "RegionCode";
+"Nickname" = "Nickname";
+"AccountNickname_Reserved" = "The account nickname entered is reserved and cannot be used. Please enter a new one.";
+"Enter Address" = "Enter Address";
+"Address from Contacts" = "Address from Contacts";
+
+// MARK: ├─➤ CHECKOUT
+"Ship to" = "Ship to";
+"payment_info" = "Payment Information";
+"Gift_Title" = "Is this a gift?";
+"Gift_Msg" = "Gift Message (Optional)";
+"Gift Message" = "Gift Message";
+"Promo_Code_Optional" = "Promo Code (Optional)";
+"MailingList" = "Join our mailing list.";
+"Select" = "Select";
+"default" = "default";
+"shipping_std" = "Standard $5 (3-5 days)";
+"shipping_priority" = "Priority $10 (1-2 days)";
+"buy" = "Buy";
+"purchase" = "Purchase";
+"place your order" = "Place your order";
+"Complete Your Order" = "Complete Your Order";
+"Complete Order" = "Complete Order";
+"Complete Purchase" = "Complete Purchase";
+"gift_msg" = "Gift Message";
+"Customer" = "Customer";
+"Gift_SaveTitle" = "Gift Message";
+"Gift_SaveMsg" = "Do you want to save your changes?";
+"Order_Details" = "Order Details";
+"Order_Receipt_Display" = "Your order has been received and is processing.\n\nA copy has been sent to your email for your records.\n\nDo you want to view now?";
+"Search for:" = "Search for:";
+"Checkout_Terms" = "By completing your order, you agree to\nSquareframe's Privacy Policy and Terms of Use.";
+"ExistingCustomer_Title" = "Existing Customer";
+"ExistingCustomer_Msg" = "Enter your email address to lookup your account or cancel to continue as a new customer.";
+
+// MARK: ├─➤ BILLING / SHIPPING
+"Address_Invalid_Title" = "INVALID ADDRESS";
+"Address_Invalid_Msg" = "Please check the address entered, could not be found. You can Edit from the Account Info screen.";
+"SalesTax_Error_Title" = "SALES TAX ERROR";
+"SalesTax_Error_Msg" = "Server is busy. Please wait a minute and try again.";
+"SalesTax_UnknownError_Title" = "SALES TAX ERROR";
+"SalesTax_UnknownError_Msg" = "An unknown error occurred looking for the address entered.";
+"BillShipTo_Title" = "Account Info";
+"BillShipTo_MyInfo" = "Your Info";
+"BillShipTo_BillInfo" = "Billing\nInfo";
+"BillShipTo_ShipInfo" = "Ship To Info";
+"BillShipTo_Section_Name" = "Name & Email";
+"BillShipTo_Section_Instagram" = "Instagram";
+"BillShipTo_Section_DefaultAddress" = "Billing Address";
+"BillShipTo_Section_CreditCards" = "Credit Cards";
+"BillShipTo_EditMyAddress" = "Personal Info";
+"BillShipTo_EditBillingAddress" = "Bill To Info";
+"BillShipTo_EditShippingAddress" = "Ship to Info";
+"BillShipTo_EditCreditCard" = "Payment Info";
+"BillShipTo_ShippingAddressMenu" = "SHIPPING ADDRESSES";
+"BillShipTo_CreditCardsMenu" = "CREDIT CARDS";
+"BillShipTo_CreditCardsMenuAddNew" = "Add";
+"BillShipTo_CreditCardsMenuEdit" = "Edit";
+"BillShipTo_CreditCardsMenuDelete" = "Delete";
+"BillShipTo_CreditCards_CardNum" = "Card Number";
+"BillShipTo_CreditCards_ExpMonth" = "Expiration Month";
+"BillShipTo_CreditCards_ExpYear" = "Expiration Year";
+"BillShipTo_CreditCards_CVN" = "Card Verification Number";
+"BillShipTo_CreditCards_Name" = "Name on card";
+"BillShipTo_CreditCards_Nickname" = "Nickname of card";
+"BillShipTo_ShippingAddressMenuAddNew" = "Add";
+"BillShipTo_ShippingAddressMenuEdit" = "Edit";
+"BillShipTo_ShippingAddressMenuDelete" = "Delete";
+"BillShipTo_BillingAddressMenu" = "BILLING ADDRESS";
+"BillShipTo_BillingAddressMenuSameAs" = "Use above Address";
+"BillShipTo_BillingAddressMenuSameAsMyInfo" = "Same as Personal Address";
+"BillShipTo_BillingAddressMenuEdit" = "Edit";
+"BillShipTo_BillingAddressCopiedSameAs" = "BILLING ADDRESS";
+"BillShipTo_BillingAddressCopiedMsg" = "Copied Personal address.";
+"BillShipTo_MyInfoBlank" = "Please enter your account Name & Address information.";
+"BillShipTo_BillInfoBlank" = "Please enter your billing Name & Address information or use your account Name & Address if the same.";
+"BillShipTo_Contact" = "Contact";
+"BillShipTo_Billing" = "Billing";
+"BillShipTo_Shipping" = "Shipping";
+"BillShipTo_Payment" = "Payment";
+"BillShipTo_Summary" = "Summary";
+
+// MARK: ├─➤ eCOMMERCE COUPONS
+"Apply" = "Apply";
+"Coupon" = "Promo Code";
+"discount" = "Discount";
+"free" = "FREE";
+"undefined" = "undefined";
+"most expensive item" = "most expensive item";
+"entire order" = "entire order";
+"shipping" = "shipping";
+"all items" = "all items";
+"off" = "off";
+"Coupon.Inactive" = "Inactive - Promo code is no longer active.";
+"Coupon.Invalid" = "Invalid - Promo code is no longer valid.";
+"Coupon.Expired" = "Expired - Promo code is expired.";
+"Coupon.NotFound" = "Not Found - Check Promo Code entered correctly.";
+"Coupon.LimitOnePer" = "Limit one per person. You have redeemed this coupon already.";
+"Coupon.AlreadyEntered"= "You can only use one promo code per order.";
+
+// MARK: ├─➤ IN-APP PURCHASES / eCOMMERCE
+"item" = "item";
+"items" = "items";
+"in cart" = "in cart";
+"AppStore" = "App Store";
+"iPhone" = "iPhone";
+"iPad" = "iPad";
+"Watch" = "Watch";
+"TV" = "TV";
+
+// MARK: ├─➤ CREDIT CARDS
+"CreditCard" = "Credit Card";
+"CreditCards" = "Credit Cards";
+"Card Number" = "Card Number";
+"Name on card" = "Name on card";
+"Nickname of card" = "Nickname of card";
+"Verification" = "Verification";
+"CVN" = "CVN:";
+"CVN (Security Code)" = "CVN (Security Code)";
+"Card Verification Number" = "Card Verification Number";
+"Exp" = "Exp:";
+"Expiration Month" = "Expiration Month";
+"Expiration Year" = "Expiration Year";
+"Type" = "Type";
+"Price" = "Price";
+"Amount" = "Amount";
+"Quantity" = "Quantity";
+"EmptyCart" = "Empty Cart";
+"Checkout" = "Checkout";
+"Expired" = "Expired";
+"ExpiredCard_Title" = "EXPIRED CARD";
+"ExpiredCard_Msg" = "Your credit card is expired and cannot be used. You can Edit card information from the Account Info screen.";
+
+// MARK: ├─➤ CALENDAR
+"Month" = "Month";
+"Year" = "Year";
+"January" = "January";
+"February" = "February";
+"March" = "March";
+"April" = "April";
+"May" = "May";
+"June" = "June";
+"July" = "July";
+"August" = "August";
+"September" = "September";
+"October" = "October";
+"November" = "November";
+"December" = "December";
+
+// MARK: ├─➤ PHOTOS
+"Size" = "Size";
+"size" = "size";
+"Color" = "Color";
+"Photo" = "Photo";
+"photo" = "photo";
+"Preview" = "Preview";
+"PhotoLibrary_Title" = "Photo Library";
+"PhotoLibrary_NoAccess" = "Photo access is turned off in System Settings.";
+
+// MARK: ├─➤ INSTAGRAM
+"Currently viewing" = "Currently viewing";
+"photos of" = "photos of";
+"Currently viewing Photos of" = "Currently viewing Photos of";
+"Instagram_Login" = "Instagram Login";
+"Instagram_LoginFailure_Title" = "INVALID LOGIN";
+"Instagram_LoginFailure_Msg" = "Login failed.";
+"Instagram_Following" = "Following...";
+"Instagram_Menu_Faves" = "Show ♥ Only";
+"Instagram_Menu_ShowAll" = "Show All";
+"Instagram_Menu_Logout" = "Logout of Instagram";
+"Instagram_Menu_ChangeAccount" = "Change Instagram Account";
+"Instagram_Menu_Title" = "Filter Photos";
+"Instagram_Login_Loading" = "Instagram Login Loading...";
+
+// MARK: ├─➤ CONTACT US
+"Contact" = "Contact";
+"ContactUs" = "Contact Us";
+"ContactUs_Email" = "Email us with your comments, questions or to suggest ideas.";
+"ContactUs_Contact" = "Contact us with your comments, questions or to suggest ideas.";
+"ContactUs_Website" = "Visit our website for more about our products.";
+
+// MARK: ├─➤ ABOUT
+"About" = "About This App";
+"About_Section_Application" = "Applications";
+"About_Section_Device" = "Device";
+"About_Section_Databases" = "Databases";
+"About_Section_Libraries" = "Frameworks";
+"About_Section_ExtLibraries" = "External Libraries";
+
+// MARK: ├─➤ MENUS
+"Orders" = "Orders";
+"Home" = "Home";
+"Help" = "Help";
+"Account" = "Account";
+
+// MARK: ├─➤ GESTURES
+"Tap To Change" = "Tap To Change";
+
+// MARK: ├─➤ MISCELLANEOUS
+"Set as default" = "Set as default";
+"Select Color" = "Select Color";
+"Truncated..." = "Truncated...";
+"version" = "version";
+"Version" = "Version";
+"cannot be more than" = "cannot be more than";
+"error.unkown_Title" = "ERROR";
+"error.unkown_Msg" = "An unknown error occurred.";
+"error.PHP_Title" = "PhP SCRIPT ERROR";
+"error.PHP_Msg" = "An unknown error occurred.";
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// MARK: - *** ALERT MESSAGES ***
+// MARK: ├─➤ APP STORE
+"APPSTORE_NewVerAvail_Title" = "NEWER VERSION AVAILABLE";
+"APPSTORE_NewVerAvail_Msg" = "Update to install new features and/or fixes.";
+"APPSTORE_NewVerAvail_OK" = "Update";
+"APPSTORE_NewVerAvail_Cancel" = "Skip";
+
+// MARK: ├─➤ FILES
+"FILE_Error_Title" = "FILE ERROR";
+"FILE_Error_Msg" = "A file error occurred.";
+"FILE_NotFound_Title" = "FILE ERROR";
+"FILE_NotFound_Msg" = "File not found.";
+"FILE_NotFoundMainbundle_Title" = "FILE ERROR";
+"FILE_NotFoundMainbundle_Msg" = " cannot be found in Main Bundle. Contact Developer from AppStore page.";
+"FILE_NotFound" = " not found.";
+"FILE_Download_Title" = "FILE DOWNLOAD";
+"FILE_Download_Msg" = "Error downloading document to device.";
+"FILE_Downloaded_Title" = "FILE DOWNLOADED";
+"FILE_Downloaded_Msg" = "downloaded to device.";
+"FILE_DeleteError_Title" = "FILE DELETION ERROR";
+"FILE_DeleteError_Msg" = "File was not deleted.";
+
+// MARK: ├─➤ SERVER
+"SERVER_InfoNotFound_Title" = "SERVER ERROR";
+"SERVER_InfoNotFound_Msg" = "Information not found on server.";
+"SERVER_InfoNotJSON_Title" = "SERVER ERROR";
+"SERVER_InfoNotJSON_Msg" = "Information returned from server does not match the expected format.";
+"SERVER_MailingListUpdated_Title" = "SERVER UPDATE";
+"SERVER_MailingListUpdated_Msg" = "Your Mailing List preference has been updated.";
+"SERVER_Update_Title" = "SERVER UPDATE";
+"SERVER_Update_Msg" = "Your information has been updated.";
+"SERVER_Script_Error" = "Error creating script URL.\n\n";
+"SERVER_Script_ErrorRetreiving" = "Error retrieving info from server.";
+
+// MARK: ├─➤ PHOTOS
+"IMAGE_GetError_Title" = "PHOTO ERROR";
+"IMAGE_GetError_Msg" = "There was an error getting photo.";
+"IMAGE_SaveError_Title" = "PHOTO ERROR";
+"IMAGE_SaveError_Msg" = "There was an error saving image to file named ";
+"IMAGE_SaveThumbError_Title" = "PHOTO ERROR";
+"IMAGE_SaveThumbError_Msg" = "There was an error saving image to file named ";
+"IMAGE_NotFound_Title" = "PHOTO ERROR";
+"IMAGE_NotFound_Msg" = "Could not find photo.";
+
+// MARK: ├─➤ EMAIL
+"EMAIL_NoAccess_Title" = "NO EMAIL ACCESS";
+"EMAIL_NoAccess_Msg" = "Email account invalid or inaccessible at this time.";
+"EMAIL_Sent_Title" = "EMAIL SENT";
+"EMAIL_Sent_Msg" = "Email has been sent.";
+"EMAIL_ComposeError_Title" = "EMAIL ERROR";
+"EMAIL_ComposeError_Msg" = "Composing Email Failed.";
+"EMAIL_UnknownError_Title" = "EMAIL ERROR";
+"EMAIL_UnknownError_Msg" = "Composing Email Failed.";
+"EMAIL_Attachment_Title" = "EMAIL ERROR";
+"EMAIL_Attachment_Msg" = "Invalid Attachment.";
+"EMAIL_Cancelled_Title" = "EMAIL CANCELLED";
+"EMAIL_Cancelled_Msg" = "Email cancelled and not sent.";
+
+// MARK: ├─➤ FEATURE UNAVAILABLE IN SIMULATOR
+"SIM_FeatureNotAvail_Title" = "SIMULATOR";
+"SIM_FeatureNotAvail_Msg" = "Feature is not available in the Simulator.";
+
+// MARK: ├─➤ FEATURE UNAVAILABLE
+"FEATURE_NotImplemented_Title" = "NOT AVAILABLE";
+"FEATURE_NotImplemented_Msg" = "Feature has not been implemented yet.";
+"UnsupportedLanguage_Title" = "Unsupported Language";
+"UnsupportedLanguage_Msg" = "The language your device is set to is not supported for this feature.";
+
+// MARK: ├─➤ Social Media
+"NotAvailable_SMS_Title" = "MESSAGING ERROR";
+"NotAvailable_SMS_Msg" = "Messaging is either not setup or services are not available";
+"NotAvailable_Mail_Title" = "MAIL ERROR";
+"NotAvailable_Mail_Msg" = "Mail is either not setup or services are not available";
+"Login_Facebook_Title" = "FACEBOOK ACCOUNT";
+"Login_Facebook_Msg" = "Please log in.";
+"NotAvailable_Facebook_Title" = "FACEBOOK ERROR";
+"NotAvailable_Facebook_Msg" = "Facebook is either not setup or services are not available";
+"Login_Twitter_Title" = "TWITTER ACCOUNT";
+"Login_Twitter_Msg" = "Please log in.";
+"NotAvailable_Twitter_Title" = "TWITTER ERROR";
+"NotAvailable_Twitter_Msg" = "Twitter  is either not setup or services are not available";
+"SocialMedia_Thanks_Title" = "THANK YOU!";
+"SocialMedia_Thanks_Msg" = "\nThanks for sharing Squareframe.";
+"SocialMedia_Thanks_Copied" = "\nLink copied to pasteboard. Thanks for sharing Squareframe.";
+
+// MARK: ├─➤ INTERNET
+"INTERNET_NotConnected_Title" = "INTERNET ERROR";
+"INTERNET_NotConnected_Msg" = "You must be connected to the internet to view this page.";
+"INTERNET_NotConnectedChangeInfo_Msg" = "You must be connected to the internet to change this information.";
+
+// MARK: ├─➤ PRINTER
+"PRINTER_Sent_Title" = "PRINTING...";
+"PRINTER_Sent_Msg" = "The selected document sent to printer.";
+"PRINTER_NotConnected_Title" = "PRINTER ERROR";
+"PRINTER_NotConnected_Msg" = "No valid printer found or network is inaccessible.";
+"PRINTER_DomainError_Title" = "PRINTER ERROR";
+"PRINTER_DomainError_Msg" = "Printing failed due to error in domain {ERROR_DOMAIN} with error code {ERROR_CODE}";
+
+// MARK: ├─➤ DOCUMENTS/PDF
+"PDF_NotFound_Title" = "DOCUMENT ERROR";
+"PDF_NotFound_Msg" = "The requested document was not found.";
+"PDF_NotFound_MsgWithFilename" = " was not found.";
+
+// MARK: ├─➤ SQL
+"SQL_GetError_Title" = "GET ERROR";
+"SQL_GetError_Msg" = "Failed to GET, an error occurred.";
+"SQL_SaveError_Title" = "SAVE ERROR";
+"SQL_SaveError_Msg" = "Failed to SAVE, an error occurred.";
+"SQL_DeleteError_Title" = "DELETE ERROR";
+"SQL_DeleteError_Msg" = "Failed to DELETE, an error occurred.";
+"SQL_Delete_Title" = "DELETE?";
+"SQL_Delete_Msg" = "Delete ";
+"SQL_Delete_Ok" = "Delete";
+"SQL_Delete_Cancel" = "No";
+"SQL_UpdateCC_Title" = "CARD UPDATED";
+"SQL_UpdateCC_Msg" = "Card Updated";
+"SQL_AddedCC_Title" = "CARD ADDED";
+"SQL_AddedCC_Msg" = "Card Added.";
+"SQL_DeletedCC_Title" = "CARD DELETED";
+"SQL_DeletedCC_Msg" = "Card Deleted.";
+"SQL_UpdateAddress_Title" = "ADDRESS UPDATED";
+"SQL_UpdateAddress_Msg" = "Address Updated";
+"SQL_AddedAddress_Title" = "ADDRESS ADDED";
+"SQL_AddedAddress_Msg" = "Address Added.";
+"SQL_DeletedAddress_Title" = "ADDRESS DELETED";
+"SQL_DeletedAddress_Msg" = "Address Deleted.";
+"SQL_BlankTableError_Title" = "DATABASE ERROR";
+"SQL_BlankTableError_Msg" = "SQL TABLE name can't be blank if saveToDefaults = false.";
+"SQL_TreatEditError1_Title" = "DATABASE ERROR";
+"SQL_TreatEditError1_Msg" = "'saveToDefaults' and 'treatAsEdit' can't both be true.";
+"SQL_TreatEditError2_Title" = "DATABASE ERROR";
+"SQL_TreatEditError2_Msg" = "'saveToDefaults' and 'treatAsEdit' can't both be false.";
+"SQL_UpdateDBError_Title" = "DATABASE ERROR";
+"SQL_UpdateDBError_Msg" = "Could not create backup copy of database, Update aborted.\n\nContact Technical Support as soon as possible.\n\nYour application will not operate properly, you could lose data or app will crash if you continue to use it.";
+"SQL_UpdatingDB_Msg" = "Updating database";
+"SQL_TableCreateError_Msg" = "An error occured creating table ";
+"SQL_TableRenameError_Msg" = "An error occured renaming table ";
+"SQL_TableDeleteError_Msg" = "An error occured deleting table ";
+"SQL_TableUpdateError_Msg" = "An error occured updating table ";
+"SQL_UpdatedDB_Title" = "DATABASE UPGRADE";
+"SQL_UpdatedDB_Msg" = "Your database has been updated to the current version.";
+
+// MARK: ├─➤ SHOPPING CART
+"CART_Error_Title" = "SHOPPING CART";
+"CART_Error_Msg" = "Something went wrong. Try again.";
+"CART_AddError_Title" = "SHOPPING CART";
+"CART_AddError_Msg" = "Could not add item to cart. Try again.";
+"CART_UpdateError_Title" = "SHOPPING CART";
+"CART_UpdateError_Msg" = "Could not update item in cart. Try again.";
+"CART_Empty_Title" = "EMPTY CART?";
+"CART_Empty_Msg" = "Are you sure you want to delete ALL items?";
+"CART_Emptied_Title" = "SHOPPING CART";
+"CART_Emptied_Msg" = "All items removed.";
+"CART_DeleteItem_Title" = "SHOPPING CART";
+"CART_DeleteItem_Msg" = "Delete this item?";
+"CART_DeletedItem_Title" = "SHOPPING CART";
+"CART_DeletedItem_Msg" = "Item deleted.";
+"CART_NotFoundItem_Title" = "SHOPPING CART";
+"CART_NotFoundItem_Msg" = "There are no items in your cart.";
+"CART_Checkout_Title" = "Checkout";
+
+

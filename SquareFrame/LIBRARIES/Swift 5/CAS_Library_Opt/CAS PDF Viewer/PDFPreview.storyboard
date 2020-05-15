@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--VC_PDFPreview-->
+        <scene sceneID="5iR-pK-Hsf">
+            <objects>
+                <viewController storyboardIdentifier="VC_PDFPreview" title="VC_PDFPreview" extendedLayoutIncludesOpaqueBars="YES" definesPresentationContext="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="C7z-fg-x2S" userLabel="VC_PDFPreview" customClass="VC_PDFPreview" customModule="SquareFrame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4NN-6L-OxF"/>
+                        <viewControllerLayoutGuide type="bottom" id="f75-iu-gW4"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="I86-D2-bry">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cFh-6S-OSe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="LJV-7y-aVc"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem image="Close_PDF" id="5bR-FC-zhB">
+                                        <connections>
+                                            <action selector="close:" destination="C7z-fg-x2S" id="f7c-ZD-aze"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vna-iv-jLR"/>
+                                    <barButtonItem style="plain" id="nP4-dw-Vth">
+                                        <view key="customView" opaque="NO" contentMode="scaleToFill" id="6pX-cv-iag" userLabel="View (Gestures)">
+                                            <rect key="frame" x="136" y="3.5" width="103" height="37"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stretch" translatesAutoresizingMaskIntoConstraints="NO" id="rUo-Eb-QDv">
+                                                    <rect key="frame" x="0.0" y="4" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zoom" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumScaleFactor="0.5" preferredMaxLayoutWidth="80" translatesAutoresizingMaskIntoConstraints="NO" id="6rH-wG-ri1">
+                                                    <rect key="frame" x="28" y="6" width="44" height="24"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="16"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pinch" translatesAutoresizingMaskIntoConstraints="NO" id="LnR-Xb-cDw">
+                                                    <rect key="frame" x="72" y="4" width="30" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="5Fj-Gi-9Ad"/>
+                                    <barButtonItem systemItem="action" id="7kG-i1-0K1" userLabel="Share">
+                                        <inset key="imageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="1"/>
+                                        <connections>
+                                            <action selector="share:" destination="C7z-fg-x2S" id="n2l-dB-7fL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jC6-2K-UTC">
+                                <rect key="frame" x="76" y="0.0" width="223" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="u9z-39-Uzr"/>
+                                </constraints>
+                                <string key="text">THIS IS 
+THE TITLE</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fil-G2-SjK">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cFh-6S-OSe" firstAttribute="leading" secondItem="I86-D2-bry" secondAttribute="leading" id="0jR-Uc-2LL"/>
+                            <constraint firstAttribute="trailing" secondItem="cFh-6S-OSe" secondAttribute="trailing" id="1cw-Vo-gyW"/>
+                            <constraint firstItem="jC6-2K-UTC" firstAttribute="leading" secondItem="I86-D2-bry" secondAttribute="leadingMargin" constant="60" id="2Sj-Qd-l1v"/>
+                            <constraint firstAttribute="trailing" secondItem="fil-G2-SjK" secondAttribute="trailing" id="GEz-vD-yoF"/>
+                            <constraint firstItem="cFh-6S-OSe" firstAttribute="top" secondItem="4NN-6L-OxF" secondAttribute="bottom" id="GNE-HC-n75"/>
+                            <constraint firstItem="jC6-2K-UTC" firstAttribute="top" secondItem="4NN-6L-OxF" secondAttribute="bottom" id="L8W-M3-kIV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jC6-2K-UTC" secondAttribute="trailing" constant="60" id="LcG-0g-gBM"/>
+                            <constraint firstItem="fil-G2-SjK" firstAttribute="top" secondItem="cFh-6S-OSe" secondAttribute="bottom" id="aLo-fi-Kn7"/>
+                            <constraint firstItem="fil-G2-SjK" firstAttribute="leading" secondItem="I86-D2-bry" secondAttribute="leading" id="v4t-9I-chE"/>
+                            <constraint firstAttribute="bottom" secondItem="fil-G2-SjK" secondAttribute="bottom" id="xUM-Iz-S8N"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="BtnDone" destination="5bR-FC-zhB" id="yIC-dr-vav"/>
+                        <outlet property="BtnShare" destination="7kG-i1-0K1" id="Tze-Ya-byb"/>
+                        <outlet property="lbl_Title" destination="jC6-2K-UTC" id="zSg-Le-S0Z"/>
+                        <outlet property="toolbar" destination="cFh-6S-OSe" id="QH9-N3-4Mp"/>
+                        <outlet property="vw_ZoomInfo" destination="6pX-cv-iag" id="uFV-kc-vJB"/>
+                        <outlet property="webView" destination="fil-G2-SjK" id="byK-SK-FgM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qwa-ix-vac" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1135.2" y="519.49025487256381"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Close_PDF" width="27.5" height="27.5"/>
+        <image name="Pinch" width="49.5" height="49.5"/>
+        <image name="Stretch" width="49.5" height="49.5"/>
+    </resources>
+</document>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Popover_Picker-->
+        <scene sceneID="cWI-Gw-GJb">
+            <objects>
+                <viewController storyboardIdentifier="Popover_Picker" title="Popover_Picker" modalTransitionStyle="crossDissolve" modalPresentationStyle="formSheet" useStoryboardIdentifierAsRestorationIdentifier="YES" id="98h-Cb-56y" userLabel="Popover_Picker" customClass="Popover_Picker" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Ed-hN-okm"/>
+                        <viewControllerLayoutGuide type="bottom" id="snt-BD-C5J"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="cFf-TQ-Ome">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="258"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select File" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uvc-ry-N8b">
+                                <rect key="frame" x="51" y="8" width="191" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ab0-FU-ynT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CAS_Picker_FileFolder" translatesAutoresizingMaskIntoConstraints="NO" id="VUW-a8-gd7">
+                                <rect key="frame" x="8" y="8" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="X1g-hB-s6S"/>
+                                    <constraint firstAttribute="height" constant="40" id="YiP-pE-n9S"/>
+                                </constraints>
+                            </imageView>
+                            <label userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPP-X8-Jxn">
+                                <rect key="frame" x="8" y="54" width="234" height="2"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="4wi-Dy-t2t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iRA-3e-oS4">
+                                <rect key="frame" x="0.0" y="51" width="250" height="162"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="iLg-lb-0IP">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="216"/>
+                                    </constraint>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="98h-Cb-56y" id="294-gi-zlp"/>
+                                    <outlet property="delegate" destination="98h-Cb-56y" id="yhy-WJ-eMU"/>
+                                </connections>
+                            </pickerView>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="3p1-fj-9cQ">
+                                <rect key="frame" x="0.0" y="51" width="250" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="162" id="oza-kq-wDY">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="216"/>
+                                    </constraint>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="511817130.60183001">
+                                    <!--2017-03-21 19:25:30 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="dateChanged:" destination="98h-Cb-56y" eventType="valueChanged" id="eiH-xY-qJ2"/>
+                                </connections>
+                            </datePicker>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4W-TP-Es5">
+                                <rect key="frame" x="0.0" y="214" width="250" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="diF-cU-EXo"/>
+                                </constraints>
+                                <items/>
+                                <color key="barTintColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iRA-3e-oS4" firstAttribute="leading" secondItem="cFf-TQ-Ome" secondAttribute="leading" id="1ja-PZ-NDB"/>
+                            <constraint firstAttribute="trailing" secondItem="uvc-ry-N8b" secondAttribute="trailing" constant="8" id="4Tz-7c-OSM"/>
+                            <constraint firstItem="3p1-fj-9cQ" firstAttribute="leading" secondItem="cFf-TQ-Ome" secondAttribute="leading" id="F9x-pZ-LES"/>
+                            <constraint firstItem="fPP-X8-Jxn" firstAttribute="top" secondItem="VUW-a8-gd7" secondAttribute="bottom" constant="6" id="M8Q-WA-RVe"/>
+                            <constraint firstAttribute="trailing" secondItem="iRA-3e-oS4" secondAttribute="trailing" id="Nac-0f-gMY"/>
+                            <constraint firstAttribute="trailing" secondItem="Q4W-TP-Es5" secondAttribute="trailing" id="R3a-i2-W75"/>
+                            <constraint firstItem="snt-BD-C5J" firstAttribute="top" secondItem="3p1-fj-9cQ" secondAttribute="bottom" constant="45" id="VBw-qk-i8C"/>
+                            <constraint firstItem="fPP-X8-Jxn" firstAttribute="leading" secondItem="cFf-TQ-Ome" secondAttribute="leading" constant="8" id="Xbu-gh-LOT"/>
+                            <constraint firstAttribute="trailing" secondItem="3p1-fj-9cQ" secondAttribute="trailing" id="Ymb-VN-aki"/>
+                            <constraint firstItem="iRA-3e-oS4" firstAttribute="top" secondItem="fPP-X8-Jxn" secondAttribute="bottom" constant="-5" id="b4h-u8-spA"/>
+                            <constraint firstItem="Q4W-TP-Es5" firstAttribute="leading" secondItem="cFf-TQ-Ome" secondAttribute="leading" id="c4v-FU-JpE"/>
+                            <constraint firstAttribute="bottom" secondItem="iRA-3e-oS4" secondAttribute="bottom" constant="45" id="cI2-vU-uha"/>
+                            <constraint firstItem="VUW-a8-gd7" firstAttribute="top" secondItem="8Ed-hN-okm" secondAttribute="bottom" constant="8" id="cdQ-YV-fbY"/>
+                            <constraint firstItem="uvc-ry-N8b" firstAttribute="leading" secondItem="VUW-a8-gd7" secondAttribute="trailing" constant="3" id="f9R-oo-y4H"/>
+                            <constraint firstItem="3p1-fj-9cQ" firstAttribute="top" secondItem="fPP-X8-Jxn" secondAttribute="bottom" constant="-5" id="guG-Zx-V5Q"/>
+                            <constraint firstItem="snt-BD-C5J" firstAttribute="top" secondItem="Q4W-TP-Es5" secondAttribute="bottom" id="mOZ-EB-CK1"/>
+                            <constraint firstAttribute="trailing" secondItem="fPP-X8-Jxn" secondAttribute="trailing" constant="8" id="pNm-pZ-un8"/>
+                            <constraint firstItem="VUW-a8-gd7" firstAttribute="leading" secondItem="cFf-TQ-Ome" secondAttribute="leading" constant="8" id="rde-KW-jcF"/>
+                            <constraint firstItem="uvc-ry-N8b" firstAttribute="top" secondItem="8Ed-hN-okm" secondAttribute="bottom" constant="8" id="tjg-f7-C4J"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="250" height="258"/>
+                    <connections>
+                        <outlet property="datePicker" destination="3p1-fj-9cQ" id="cnS-0G-wtm"/>
+                        <outlet property="divider" destination="fPP-X8-Jxn" id="bAN-vD-nPE"/>
+                        <outlet property="imgIcon" destination="VUW-a8-gd7" id="Daz-5P-xUD"/>
+                        <outlet property="lblScreenTitle" destination="uvc-ry-N8b" id="mpr-qt-EAh"/>
+                        <outlet property="picker" destination="iRA-3e-oS4" id="UFE-u0-a3B"/>
+                        <outlet property="pickerContraint" destination="cI2-vU-uha" id="GJy-5i-jJW"/>
+                        <outlet property="pickerDateContraint" destination="VBw-qk-i8C" id="GqI-Nr-Dvc"/>
+                        <outlet property="pickerDateHeight" destination="oza-kq-wDY" id="O3K-KG-NzK"/>
+                        <outlet property="pickerHeight" destination="iLg-lb-0IP" id="Y3G-Mf-N7i"/>
+                        <outlet property="toolbar" destination="Q4W-TP-Es5" id="Pfg-Be-uxu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X4q-TM-mTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-851.20000000000005" y="186.65667166416793"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CAS_Picker_FileFolder" width="337.5" height="337.5"/>
+    </resources>
+</document>
