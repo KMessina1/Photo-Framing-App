@@ -1,0 +1,440 @@
+/* es (SPANISH) Localized Strings */
+
+// Mark: - *** APP SHORTCUTS (HOME SCREEN) ***
+"shortcut_Open_1_Title" = "Galería de Marcos";
+"shortcut_Open_1_Subtitle" = "";
+"shortcut_Open_2_Title" = "Seleccione Foto";
+"shortcut_Open_2_Subtitle" = "";
+"shortcut_Open_3_Title" = "Historial de Pedidos";
+"shortcut_Open_3_Subtitle" = "";
+"shortcut_Open_4_Title" = "Ajustes";
+"shortcut_Open_4_Subtitle" = "";
+
+//Mark: - *** GENERAL TERMS ***
+"New" = "Nuevo";
+"New!" = "¡Nuevo!";
+"Frame Style" = "Estilo";
+"Frame Material" = "Material";
+"Frame Color" = "Coloraryes del Marco";
+"Format" = "Formato";
+"Style/Shape" = "Estilo/Forma";
+"frame" = "Marco";
+"frames" = "Marcos";
+"framed" = "Enmarcada";
+"Black" = "Negro";
+"White" = "Blanco";
+"Natural" = "Natural";
+"Gray Wash" = "Gris Desteñido";
+"Gray" = "Gris Desteñido";
+"Walnut" = "Nogal";
+"Brown" = "Nogal";
+"Square" = "Cuadrado";
+"Rectangular" = "Rectangular";
+"Rectangular_Landscape" = "Rectangular (Landscape)";
+"Rectangular_Portrait" = "Rectangular (Portrait)";
+"Standard" = "Estándar";
+"Slimline" = "que no Engorda";
+"Wood" = "Madera";
+"photo" = "foto";
+"Photo" = "Foto";
+"size" = "tamaño";
+"Size" = "tamaño";
+"color" = "color";
+"Color" = "Color";
+"preview" = "preestreno";
+"Preview" = "Preestreno";
+"website" = "sitio web";
+"Website" = "Sitio web";
+"in the Appstore" = "en la App Store";
+"Failed" = "Ha fallado";
+
+// MARK: - *** COPY FILE MESSAGING ***
+"Copy.Failed_Title" = "COPIA DE ARCHIVOS";
+"Copy.Failed_Msg" = "Ocurrió un problema al copiar archivos inicializando la aplicación. Por favor, obliga a eliminar la aplicación y volver a descargar de nuevo.";
+
+// MARK: - *** SIREN FORCE UPDATE MESSAGING ***
+"Siren_Update_Title" = "ACTUALIZACIÓN DISPONIBLE";
+"Siren_Update_Msg" = "Una versión más nueva está disponible y se requiere para continuar con la compra..\n\nPor favor descargue desde Appstore.";
+"Siren_Update_UpdateButton_Title" = "Actualizar";
+"Siren_Update_NextTimeButton_Title" = "Siguiente lanzamiento";
+"Siren_Update_SkipVersionButton_Title" = "Omitir";
+
+// MARK: - *** SHARE SCREEN ***
+"Share_Twitter_Msg" = "Echa un vistazo a Squareframe, la aplicación de encuadre para tu Instagram y otras fotos./n/n#Squareframe\n\nVer en App Store:";
+"Share_Facebook_Msg" = "Consulte Squareframe, la aplicación de encuadre para su Instagram y otras fotos./n/nToque el enlace a continuación para ver en App Store.";
+"Share_Mail_Msg1" = "Consulte Squareframe, la aplicación de encuadre para su Instagram y otras fotos./n/nToque el enlace a continuación para ver en App Store.";
+"Share_Mail_Msg2" = "vista desde dispositivos móviles";
+"Share_Mail_Msg3" = "vista desde la computadora";
+"Share_Mail_Subject" = "Tu amigo te recomendó la aplicación Squareframe...";
+"Share_SMS_Msg1" = "Echa un vistazo a Squareframe, la aplicación de encuadre para tu Instagram y otras fotos.";
+"Share_SMS_Msg2" = "Toca el enlace a continuación para ver en App Store.";
+"Share_Copy_Msg1" = "Consulte Squareframe, la aplicación de encuadre para su Instagram y otras fotos./n/nToque el enlace a continuación para ver en App Store.";
+"Share_Copy_Msg2" = "vista desde dispositivos móviles";
+"Share_Copy_Msg3" = "vista desde la computadora";
+
+// MARK: - *** INFO OVERLAY SCREEN ***
+"InfoOverlay_Header" = "Instrucciones";
+"InfoOverlay_Title" = "Consejos";
+"InfoOverlay_Tip1" = "Toque la foto para seleccionar";
+"InfoOverlay_Tip2" = "Toque en el marco de una vista previa";
+"InfoOverlay_Tip3" = "Deslizar ⬅︎/➡︎ cambia de color";
+"InfoOverlay_Tip4" = "Deslizar ⬆︎/⬇︎ cambia de tamaño";
+"InfoOverlay_Slide1_Title" = "Para Seleccionar Foto";
+"InfoOverlay_Slide1_Descrip" = "Toque en la FOTO para seleccionar\n";
+"InfoOverlay_Slide2_Title" = "Para Previsualizar";
+"InfoOverlay_Slide2_Descrip" = "Toque en el FRAME para previsualizar";
+"InfoOverlay_Slide3_Title" = "Cambiar color";
+"InfoOverlay_Slide3_Descrip" = "Deslizar ⬅︎/➡︎ para seleccionar";
+"InfoOverlay_Slide4_Title" = "Cambiar tamaño";
+"InfoOverlay_Slide4_Descrip" = "Deslizar ⬆︎/⬇︎ para seleccionar";
+
+// MARK: - *** FAQ SCREEN ***
+"FAQ" = "FAQs";
+
+// MARK: - *** HOME SCREEN ***
+"Home(SF)_GetStarted" = "Empieza";
+
+// MARK: - *** POLICIES SCREEN ***
+"Policy(SF)_Title" = "VER POLITICAS";
+"Policy(SF)_Privacy" = "Intimidad";
+"Policy(SF)_Warranty" = "Garantía";
+"Policy(SF)_Refunds" = "Los Reembolsos";
+
+// MARK: - *** LEFT MENU ***
+"Menu_Home" = "Comienzo";
+"Menu_GetStarted" = "Empezar";
+"Menu_Frames" = "Marcos";
+"Menu_Orders" = "Órdenes";
+"Menu_AccountInfo" = "Info de cuenta";
+"Menu_FAQ" = "FAQs";
+"Menu_Contact Us" = "Contáctenos";
+"Menu_Share" = "Compartir";
+"Menu_Rate" = "Nos Califica";
+
+// MARK: - *** SHARE ***
+"Share_Title" = "Compartir Squareframe!";
+"Share_Blurb" = "Dile a tu familia y amigos sobre Squareframe ...";
+
+// MARK: - *** FRAME OPTIONS ***
+"Frames(SF)_Title" = "Marcos";
+"Frames(SF)_Descrip" = "Nuestros marcos están hechos de madera de pino sostenible de Nueva Zelanda, papel fotográfico de lustre de primera calidad, vidrio acrílico de filtro UV y alfombra sin ácido durante años de calidad superior, resistente a la decoloración, y disfrute. Están disponibles en seis tamaños (marcos para impresiones 4x4\", 5x5\", 8x8\" y 4x6\", 5x7\" y 8x10\") y cinco colores y manchas de alta calidad (natural, negro, blanco, nogal y gris).";
+"Frames(SF)_Frames" = "Marcos";
+"Frames(SF)_Note" = "Nota: Todos los cuadros tienen un color blanco mate foto circundante.";
+"Frames(SF)_Finished" = "Completo";
+"Frames(SF)_AspectSquare" = "cuadrado";
+"Frames(SF)_AspectRect" = "rectangular";
+"Frames(SF)_Summary" = "Sumario";
+"Frames(SF)_Square" = "Cuadrado";
+"Frames(SF)_Rectangular" = "Rectángulo";
+"Frames_Get_Square" = "Obteniendo información de cuadro cuadrado";
+"Frames_Get_Rect" = "Obteniendo información de cuadro rectangular";
+"Frames_Get_All" = "Obteniendo información sobre el marco";
+"Frames_Info_Description_1" = "Nuestros marcos están hechos de madera de pino sostenible de Nueva Zelanda,";
+"Frames_Info_Description_2" = "papel fotográfico de lustre premium, filtro UV de vidrio acrílico y esteras sin ácido";
+"Frames_Info_Description_3" = "por años de superior, fade-resistente, calidad y disfrute.";
+"FramePreview_Title" = "AVANCE";
+"FramePreview_Msg" = "Debe seleccionar una foto antes de la vista previa.";
+
+// MARK: - *** ORDER HISTORY ***
+"Orders(SF)_Title" = "Historial de Órdenes";
+"Orders_Total_Orders" = "Total de ordenar";
+"Orders_Total_Amount" = "Cantidad total";
+"Orders_NotProcessed_Title" = "HISTORIAL DE PEDIDOS";
+"Orders_NotProcessed_Msg" = "Esta orden no se completó y no se pueden mostrar los detalles.";
+"Orders_NotFound_Title" = "HISTORIAL DE PEDIDOS";
+"Orders_NotFound_Msg" = "No se han encontrado pedidos para su cuenta.";
+
+// MARK: - *** CART ***
+"Cart(SF)_FrameFormat" = "Formato de Trama";
+"Cart(SF)_Framed" = "enmarcado";
+"Cart(SF)_PerFrame" = "por marco";
+"Cart_AddTo" = "Añadir a la Cesta";
+"Cart_FrameInfo" = "Ver Detalles";
+"Cart_AddError_Title" = "ERROR DE LA TARJETA";
+"Cart_AddError_Msg" = "Se ha producido un error al añadir el elemento en el carro. Inténtalo de nuevo.";
+"Cart_AddErrorPhoto_Title" = "ERROR FOTOGRÁFICO";
+"Cart_AddErrorPhoto_Msg" = "Hubo un problema al ubicar esta foto. Por favor, vuelva a seleccionarlo y luego intente agregarlo al carrito.";
+"Cart_UpdateError_Title" = "ERROR DE LA TARJETA";
+"Cart_UpdateError_Msg" = "Se ha producido un error al actualizar el elemento en el carro. Inténtalo de nuevo.";
+"Cart_DeleteError_Title" = "ERROR DE LA TARJETA";
+"Cart_DeleteError_Msg" = "Se ha producido un error al eliminar el elemento del carro. Inténtalo de nuevo.";
+"Cart_Emptying" = "Carrito de vaciado";
+"Customer" = "Cliente";
+"customer" = "cliente";
+"Correct information" = "Corrija la siguiente información";
+"Country must be US" = "País debe ser EE.UU.";
+"Cart.Create.Error_Title" = "ERROR DE CARRITO";
+"Cart.Create.Error_Msg" = "Hubo un problema al cargar un carrito de compras. Inténtalo de nuevo.";
+"Cart.Customer.Create.Error_Title" = "ERROR DE CARRITO";
+"Cart.Customer.Create.Error_Msg" = "Hubo un problema al crearlo como un nuevo cliente. Inténtalo de nuevo.";
+"Cart.AddItems" = "Artículos al carro";
+"Cart.Order.Error_Title" = "ERROR DE CARRITO / PEDIDO";
+"Cart.Order.Error_Msg" = "Hubo un problema al convertir su carrito de compras en un pedido. Inténtalo de nuevo.";
+
+// MARK: - *** CUSTOMERS ***
+"Customers_NotFilledOut_Title" = "INFORMACIÓN DEL CLIENTE";
+"Customers_NotFilledOut_Msg" = "Tu cuenta no está configurada. Ingrese su dirección de correo electrónico en Configuración de cuenta antes de intentar ver el Historial de su Pedido.";
+
+// MARK: - *** COUPONS ***
+"coupon.error_Title" = "ERROR DE CUPON";
+"coupon.error_Msg" = "Error al obtener cupones del servidor.";
+"coupon.error.Delete_Title" = "COUPON ERROR";
+"coupon.error.Delete_Msg" = "Error Deleting Coupons from server.";
+
+// MARK: - *** ORDERS ***
+"Searching for addresses..." = "Buscando direcciones...";
+"Processing addresses..." = "Procesamiento de direcciones...";
+"Order_DateTitle" = "Fecha";
+"Order_NumberTitle" = "Número";
+"Order_ItemsTitle" = "Artículos";
+"Order_TotalTitle" = "Total";
+"Order_StatusTitle" = "Estado";
+"Order_ShippedToTitle" = "Enviado a";
+"Order_Last" = "Último órdenar";
+"Order_OutOfStock_Title" = "AGOTADO";
+"Order_OutOfStock_Msg" = "Este cuadro está temporalmente fuera de stock. Seleccione un color o tamaño diferente.";
+"Order_LimitedStock_Title" = "INVENTARIO LIMITADO";
+"Order_LimitedStock_Msg" = "Este bastidor tiene {qtyOnHand} disponibles en stock. Ingrese una cantidad más baja o seleccione un color o tamaño diferente.";
+"Order_ShippingMethod" = "USPS Prioridad Estándar";
+"Order_Failed_Title" = "ERROR EN LA ORDERN";
+"Order_Failed_Msg" = "Falló el pedido. Vuelve a intentarlo.";
+"Order_Update_Failed_Title" = "NO SE HA ACTUALIZADO LA PEDIDO";
+"Order_Update_Failed_Msg" = "Falló la actualización de la orden, intente de nuevo.";
+"Order_Update_Failed_SalesTax_Msg" = "Se ha producido un error en la actualización de pedido para el impuesto sobre ventas. Inténtelo de nuevo.";
+"Order_Update_Failed_Discount_Msg" = "La actualización de pedido para el descuento falló, por favor intente de nuevo.";
+"Order_Update_Failed_CustomerID_Title" = "La actualización del pedido de CustomerID falló, intente de nuevo.";
+"Order_Payment_Denied_Title" = "PAGO RECHAZADO";
+"Order_Payment_Denied_Msg" = "Se rechazó su método de pago. Compruebe por favor que toda la información es correcta o utilice otra.";
+"Order.Payment.NotSelected.Title" = "PAGO NO VÁLIDO";
+"Order.Payment.NotSelected.Msg" = "Por favor, vuelva a seleccionar el método de pago.";
+"Order_Payment_Denied_Reason_Title" = "Razón";
+"Order_Payment_Denied_Reason_Msg" = "Elija otra forma de pago.";
+"USPS Standard Priority" = "USPS Prioridad estándar";
+"Order" = "Orden";
+"Order.NotCompleted" = "ORDEN NO COMPLETADO";
+
+// MARK: - *** CHECKOUT ***
+"Checkout_Items" = "Artículo(s):";
+"Checkout_Shipping" = "Envío:";
+"Checkout_SalesTax" = "GA Impuesto de venta:";
+"Checkout_Discount" = "Descuento:";
+"Checkout_Total" = "Cantidad:";
+"CustNum_NotSet" = "Cuenta no encontrada";
+"CustNum_NotFound" = "Nuevo";
+"Contact Info" = "Datos de contacto";
+"Ship to" = "Envie a";
+"Gift Message" = "Mensaje de Regalo";
+"Bill to" = "Cobrar a";
+"Select Ship To" = "SELECCIONAR \"ENVIE A\" DIRECCIÓN DE";
+"Select Your Address" = "SELECCIONAR \"TU\" DIRECCIÓN DE";
+"Contacts" = "Contactos";
+"New" = "Nuevo";
+"Saved" = "Guardar";
+"Select Payment" = "SELECCIONAR \"PAGO\" DESDE";
+"Select Bill to" = "SELECCIONAR \"COBRAR A\" DIRECCIÓN DE";
+"Same As Ship to" = "Igual que Envie a";
+"Same As Contact" = "Igual que el Contacto";
+"Processing Order..." = "Orden de Procesamiento...";
+"Processing Payment..." = "Procesando el Pago...";
+"Calculating Sales Tax..." = "Cálculo del impuesto a las ventas...";
+"Applying Discount..." = "Aplicando descuento...";
+"Updating Order Total..." = "Actualizando Total de Orden...";
+"Checkout.ApplePay" = "Use su cuenta de Apple Pay para esta compra.";
+"Checkout.ComplimentaryOrder" = "ORDEN COMPLEMENTARIA:\nSin pago es necesario.";
+"Checkout.NoPaymentSelected" = "Seleccionar tipo de pago";
+"Checkout.Validating Coupon" = "Validar cupón...";
+"Checkout.CustomerID.Missing_Title" = "REVISA";
+"Checkout.CustomerID.Missing_Msg" = "Hubo un problema al completar su pedido. Inténtalo de nuevo.";
+
+// MARK: - *** FEED ***
+"Feed(SF)_Title" = "Elige fotos de...";
+"Feed(SF)_Recents" = "Recientes";
+"Feed(SF)_NotFound" = "La siguiente lista no se encuentra.";
+
+// MARK: - *** PHOTO PREVIEW ***
+"PhotoPrev(SF)_Format" = "Foto Formato:";
+"PhotoPrev(SF)_Size" = "Foto Tamaño:";
+"PhotoPrev(SF)_FrameSize" = "Tamaños de Cuadro:";
+"PhotoPrev_Size" = "Foto Tamaño";
+"photoSource.choose_title" = "Seleccione Foto";
+"photoSource.choose_msg" = "Continuar con Instagram\nO\nAcceda a su biblioteca de Fotos?";
+"photoSource.choose_PhotoLibrary" = "Biblioteca de Fotos";
+"photoSource.choose_Instagram" = "Instagram";
+"photoSource.processing" = "Procesando foto...";
+"photo.showDetails.Title" = "Detalles de fotos";
+"photoSource.select_title" = "SELECCIONE LA FOTO DE";
+
+// MARK: - *** ACCOUNT SETTINGS ***
+"Settings_Theme" = "Tema de color";
+"Settings_SFAcct" = "Config. de la cuenta";
+"Settings_Privacy" = "Política de privacidad";
+"Settings_MailList_Notes" = "Regístrese para recibir correos electrónicos sobre actualizaciones, ofertas especiales y otros elementos de interés. No se preocupe, no vamos a inundar su bandeja de entrada con correos electrónicos sin sentido.";
+"Name & Email" = "Nombre Correo Electronico";
+"Account.Reset_Title" = "Restablecer la configuración";
+"Account.Reset_Msg" = "¿Restablecer todas las configuraciones de aplicaciones guardadas?";
+"Account.Reset.Alert_Title" = "Restablecer la configuración?";
+"Account.Reset.Alert_Msg" = "Puede restablecer la información de la foto si la aplicación ya no puede encontrar su foto o Toda la información para restablecer la foto + su información de inicio de sesión.";
+"Account.Reset.Alert_Btn_Photo" = "RESTABLECER solo información de la foto";
+"Account.Reset.Alert_Btn_All" = "RESTABLECER Toda la informacion";
+"Account.Reset.Alert_ResetPhoto_Title" = "Información de la foto";
+"Account.Reset.Alert_ResetPhoto_Msg" = "La información de tu foto seleccionada ha sido restablecida.";
+"Account.Reset.Alert_ResetAll_Title" = "Información de la aplicación";
+"Account.Reset.Alert_ResetAll_Msg" = "Su información de la aplicación ha sido restablecida.";
+
+// MARK: - *** PDF REPORTS ***
+"PDF_FOOTER_ORDER1" = "Para preguntas relacionadas con este fin, contacte con nosotros en orders@sqframe.com.";
+"PDF_FOOTER_ORDER2" = "Nuestras políticas están disponibles dentro de su aplicación o sitio web www.sqframe.com.";
+"PDF_ORDER_TITLE" = "Detalles de la Orden";
+"PDF_PACKINGSLIP_TITLE" = "Lista de Empaque";
+"PDF_GIFT_TITLE" = "Disfruta tu Regalo";
+"PDF_GIFTMSG_TITLE" = "Mensaje de Regalo";
+"PDF_SHIPTO_TITLE" = "Envie a";
+"PDF_FROM_TITLE" = "De";
+"PDF_CUSTOMER_TITLE" = "Cliente";
+"PDF_ORDERNUM_TITLE" = "Número de Orden";
+"PDF_ORDERDATE_TITLE" = "Fecha de Orden";
+"PDF_PAYMENTMETHOD_TITLE" = "Método de pago";
+"PDF_PAYMENTCARD_TITLE" = "Que termina en la tarjeta";
+"PDF_SHIPMETHOD_TITLE" = "Método de Envío";
+"PDF_SHIPTRACKING_TITLE" = "El Número de Rastreo";
+"PDF_SHIPUSPS_TITLE" = "Prioridad estándar de USPS";
+"PDF_PRIVACY_TITLE" = "Privacidad";
+"PDF.OrderDetails.Msg" = "Building Order Details PDF...";
+"PDF.OrderConfirmation.Msg" = "Building Order Confirmation PDF...";
+"PDF.Payment.Coupon_Title" = "CODIGO DE PROMOCION";
+
+// MARK: - *** HELP ***
+"Help(SF)_Topics" = "Temas";
+"Help(SF)_Key_App Overview" = "Aplicación General";
+"Help(SF)_Key_Settings" = "Ajustes";
+"Help(SF)_Key_Selecting Photos" = "Selección de Fotos";
+"Help(SF)_Key_Frame Options" = "Opciones de Marco";
+"Help(SF)_Key_Placing Orders" = "Poniendo Ordenes";
+"Help(SF)_Key_About" = "Información de la Aplicación";
+"Help(SF)_Key_Help" = "Ayuda";
+"Help(SF)_Key_3D-Touch" = "3D-Toque";
+"Help(SF)_Key_Conclusion" = "Conclusión";
+// MARK: ├─➤ Overview
+"Help(SF)_Overview_1" = "Aplicación General";
+"Help(SF)_Overview_2" = "t/b/d...";
+"Help(SF)_Overview_3" = "";
+"Help(SF)_Overview_4" = "";
+"Help(SF)_Overview_5" = "";
+"Help(SF)_Overview_6" = "";
+"Help(SF)_Overview_7" = "";
+"Help(SF)_Overview_8" = "";
+"Help(SF)_Overview_9" = "";
+"Help(SF)_Overview_10" = "";
+"Help(SF)_Overview_11" = "";
+"Help(SF)_Overview_12" = "";
+// MARK: ├─➤ Settings
+"Help(SF)_Settings_1" = "Ajustes";
+"Help(SF)_Settings_2" = "t/b/d...";
+"Help(SF)_Settings_3" = "";
+"Help(SF)_Settings_4" = "";
+"Help(SF)_Settings_5" = "";
+"Help(SF)_Settings_6" = "";
+"Help(SF)_Settings_7" = "";
+"Help(SF)_Settings_8" = "";
+"Help(SF)_Settings_9" = "";
+// MARK: ├─➤ Selecting Photos
+"Help(SF)_SelectingPhotos_1" = "Selección de Fotos";
+"Help(SF)_SelectingPhotos_2" = "t/b/d...";
+"Help(SF)_SelectingPhotos_3" = "";
+"Help(SF)_SelectingPhotos_4" = "";
+"Help(SF)_SelectingPhotos_5" = "";
+"Help(SF)_SelectingPhotos_6" = "";
+"Help(SF)_SelectingPhotos_7" = "";
+"Help(SF)_SelectingPhotos_8" = "";
+"Help(SF)_SelectingPhotos_9" = "";
+"Help(SF)_SelectingPhotos_10" = "";
+"Help(SF)_SelectingPhotos_11" = "";
+"Help(SF)_SelectingPhotos_12" = "";
+"Help(SF)_SelectingPhotos_13" = "";
+"Help(SF)_SelectingPhotos_14" = "";
+// MARK: ├─➤ Frame Options
+"Help(SF)_FrameOptions_1" = "Opciones de Marco";
+"Help(SF)_FrameOptions_2" = "t/b/d...";
+"Help(SF)_FrameOptions_3" = "";
+"Help(SF)_FrameOptions_4" = "";
+"Help(SF)_FrameOptions_5" = "";
+"Help(SF)_FrameOptions_6" = "";
+"Help(SF)_FrameOptions_7" = "";
+"Help(SF)_FrameOptions_8" = "";
+"Help(SF)_FrameOptions_9" = "";
+"Help(SF)_FrameOptions_10" = "";
+"Help(SF)_FrameOptions_11" = "";
+"Help(SF)_FrameOptions_12" = "";
+// MARK: ├─➤ Placing Orders
+"Help(SF)_PlacingOrders_1" = "Poniendo Ordenes";
+"Help(SF)_PlacingOrders_2" = "t/b/d...";
+"Help(SF)_PlacingOrders_3" = "";
+"Help(SF)_PlacingOrders_4" = "";
+"Help(SF)_PlacingOrders_5" = "";
+"Help(SF)_PlacingOrders_6" = "";
+"Help(SF)_PlacingOrders_7" = "";
+"Help(SF)_PlacingOrders_8" = "";
+// MARK: ├─➤ About
+"Help(SF)_About_1" = "Acerca de la Pantalla";
+"Help(SF)_About_2" = "Aquí es donde se puede aprender más acerca de esta aplicación o enviar un correo electrónico.";
+"Help(SF)_About_3" = "CONTÁCTENOS: Enviar un correo electrónico con sus preguntas, sugerencias o ideas. Nos encanta escuchar los comentarios de nuestros clientes!";
+"Help(SF)_About_4" = "VERSIÓN de la APP: Diversa información que aparece en el caso de que se necesita un apoyo técnico.";
+"Help(SF)_About_5" = "AYUDA: Muestra esta pantalla";
+// MARK: ├─➤ Help
+"Help(SF)_Help_1" = "Pantalla de Ayuda";
+"Help(SF)_Help_2" = "La pantalla de ayuda (lo que está viendo en este momento) está disponible en todas las pantallas primaria de toda la aplicación. Este es el manual del usuario para el uso de esta aplicación y obtener el máximo provecho de ella mediante la comprensión de su rico conjunto de características y la forma de utilizarlos.";
+"Help(SF)_Help_3" = "QUÉ HAY DE NUEVO:: Alterna la visualización de un resumen de las nuevas características de la última actualización de la versión.";
+"Help(SF)_Help_4" = "TAMAÑO DEL TEXTO:: Arrastre para ajustar el tamaño del texto en la pantalla en esta ventana.";
+// MARK: ├─➤ 3D-Touch
+"Help(SF)_3D-Touch_1" = "3D-Toque";
+"Help(SF)_3D-Touch_2" = "ICONO DE LA PANTALLA DE INICIO: pulse profunda icono de la aplicación en la pantalla principal para revelar un menú de opciones para saltar rápidamente a una pantalla y / o función específica. (No disponible en todos los modelos. Por favor, consulte el manual del propietario para ver si 3D táctil está disponible en el dispositivo).";
+// MARK: ├─➤ Conclusion
+"Help(SF)_Conclusion_1" = "Esperamos que disfrute utilizando";
+"Help(SF)_Conclusion_2" = "\(appInfo.EDITION.FullName)";
+"Help(SF)_Conclusion_3" = "Visit our website";
+"Help(SF)_Conclusion_4" = "\nSi has disfrutado usando nuestra aplicación, le agradecería mucho si usted podría tomar un minuto para darnos una buena calificación en la iTunes App Store.";
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// MARK: - *** LOCAL ALERT MESSAGES ***
+// MARK: ├─➤ SERVER
+"SERVER_CustomerOrdersNotFound_Msg" = "Pedidos de clientes no encontrados en el servidor.";
+"SERVER_CustomerNmberNotFound_Msg" = "Número de cliente no encontrado en el servidor.";
+"SERVER_IncompleteMyInfo_Title" = "INFORMACIÓN INCOMPLETA";
+"SERVER_IncompleteMyInfo_Msg" = "Primero debe completar su información de nombre y dirección antes de usar esta función.";
+"SERVER_IncompleteMyInfo_Msg_GoTo" = "¿Desea ingresar su información de nombre y dirección ahora?";
+"SERVER_ORDERS_NONE_TITLE" = "NO HISTORIA DE PEDIDO";
+"SERVER.Account.NotFound.titleInvlaid" = "CUENTA NO VÁLIDA";
+"SERVER.Account.NotFound.title" = "CUENTA NO ENCONTRADA";
+"SERVER.Account.NotFound.msg" = "No se encontró una cuenta de Squareframe existente para esta dirección de correo electrónico.\n\nSi usted es un cliente EXISTENTE, verifique la dirección de correo electrónico y vuelva a ingresar.\n\nDe lo contrario, continúe como un NUEVO cliente.";
+"SERVER.Account.EnterAtCheckout" = "Los nuevos clientes ingresan en Checkout.";
+"SERVER.Account.IDNotFound.msg" = "Una cuenta Squareframe para {id} no encontrada.";
+"SERVER.Account.Searching" = "Búsqueda de cuenta...";
+"SERVER.Orders.Searching" = "Buscando pedidos de clientes...";
+"SERVER.Addresses.Searching" = "Buscando direcciones guardadas...";
+"SERVER.SalesTax.Searching" = "Búsqueda de tasa de impuesto a las ventas...";
+"SERVER.SalesTax.NotFound.title" = "DIRECCIÓN NO ENCONTRADA";
+"SERVER.SalesTax.NotFound.msg" = "El impuesto de ventas para el código postal ingresado no es válido.";
+"SERVER.Account.UpdateMailingList" = "Actualización de preferencias de correo...";
+"Server.DontIntterrupt.Title" = "¡IMPORTANTE!";
+"Server.DontIntterrupt.Msg" = "Estás a punto de subir tus fotos para imprimirlas.\n\nNo salga de la aplicación ni apague su dispositivo hasta que la carga se haya completado. ¡Gracias!";
+"Server.FailedCreateOrder.Msg" = "EL PEDIDO FALLÓ";
+"Server.CreatingOrderFolder.Msg" = "Crear carpeta de pedidos...";
+"Server.CreatingOrderFolder.Failed.Msg" = "Error al crear la carpeta de pedidos en el servidor.";
+"Server.UploadingFiles.Msg" = "Preparación de archivos para cargar...";
+"Server.UploadingFiles.Failed.Msg" = "Error al subir {files} al servidor.";
+"Server.viewLastOrder.Title" = "¡GRACIAS!";
+"Server.OrderPDFNotFound.Msg" = "No se encontró el recibo de la orden\n#{orderNum}.";
+"Server.noEmail.Title" = "EMAIL INVÁLIDO";
+"Server.noEmail.Msg" = "El correo electrónico no está en un formato válido o está en blanco.";
+"Server.CustomerAddError.Title" = "SE PRODUJO UN ERROR";
+"Server.CustomerAddError.Msg" = "Hubo un problema al guardar la información del Cliente.";
+
+// MARK: ├─➤ INPUT DATA ENTRY
+"InputData_ReliantFldBlank_Title" = "BLANCO DE CAMPO RELIENTE";
+"InputData_ReliantFldBlank_Msg" = "Primero debe ingresar\n\n";
+
+
+

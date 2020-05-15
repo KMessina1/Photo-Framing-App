@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/kevinmessina/Development/Client Apps/Squareframe/SF v2.2/xCode Project/SquareFrame.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SquareFrame.xcodeproj">
+   </FileRef>
+</Workspace>

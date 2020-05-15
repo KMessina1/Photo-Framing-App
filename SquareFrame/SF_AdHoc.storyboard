@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchView-->
+        <scene sceneID="pa4-oI-3Ip">
+            <objects>
+                <viewController storyboardIdentifier="LaunchView" title="LaunchView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hEx-UH-izk" userLabel="LaunchView" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2r7-ZT-4Js"/>
+                        <viewControllerLayoutGuide type="bottom" id="HFX-xY-ubs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="loI-fp-wo3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R&amp;D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qLI-17-Ppt">
+                                <rect key="frame" x="10" y="404" width="355" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="jki-vb-C9e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="42"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="28"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="White Logo" translatesAutoresizingMaskIntoConstraints="NO" id="XyR-Gi-Ms2">
+                                <rect key="frame" x="46" y="200.5" width="283" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XyR-Gi-Ms2" secondAttribute="height" multiplier="150:29" constant="-787.68965517241372" id="pPG-Dh-0oy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99929147959999998" green="0.22966736560000001" blue="0.1848383844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qLI-17-Ppt" secondAttribute="trailing" constant="10" id="4WT-Ht-5yv"/>
+                            <constraint firstItem="qLI-17-Ppt" firstAttribute="centerX" secondItem="loI-fp-wo3" secondAttribute="centerX" id="8ar-ZV-Wj9"/>
+                            <constraint firstItem="XyR-Gi-Ms2" firstAttribute="centerY" secondItem="loI-fp-wo3" secondAttribute="centerY" constant="-29.5" id="BjI-sO-q7b"/>
+                            <constraint firstItem="qLI-17-Ppt" firstAttribute="top" secondItem="XyR-Gi-Ms2" secondAttribute="bottom" constant="-3.3333333333333144" id="Qz6-3o-zLm"/>
+                            <constraint firstAttribute="trailing" secondItem="XyR-Gi-Ms2" secondAttribute="trailing" constant="46" id="bHb-Nd-Xbr"/>
+                            <constraint firstItem="XyR-Gi-Ms2" firstAttribute="leading" secondItem="loI-fp-wo3" secondAttribute="leading" constant="46" id="vQc-ms-f0O"/>
+                            <constraint firstItem="qLI-17-Ppt" firstAttribute="leading" secondItem="loI-fp-wo3" secondAttribute="leading" constant="10" id="vhs-9D-RSf"/>
+                            <constraint firstItem="XyR-Gi-Ms2" firstAttribute="centerX" secondItem="loI-fp-wo3" secondAttribute="centerX" id="xea-tS-gdy"/>
+                            <constraint firstItem="qLI-17-Ppt" firstAttribute="top" secondItem="XyR-Gi-Ms2" secondAttribute="bottom" constant="-3.3333333333333144" id="yra-7g-r2a"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ypS-pH-eiT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wQB-HP-eN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.200000000000003" y="372.41379310344831"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="White Logo" width="168.5" height="168.5"/>
+    </resources>
+</document>

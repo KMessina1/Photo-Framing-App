@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WhatsNew</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>What is Squareframe?</string>
+			<key>detail</key>
+			<string>We are a go-to framing service for Instagram photos. We frame your favorite moments with archival-quality framing materials at a price point comparable to printing and framing the photos yourself, yet at the convenience of taking only two minutes on your phone.</string>
+			<key>icon</key>
+			<string>WIN_News</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Squareframe cares...</string>
+			<key>detail</key>
+			<string>A portion of all sales made through this app goes to select, local and national organizations benefitting arts in schools and young, up and coming artists.</string>
+			<key>icon</key>
+			<string>WIN_News</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>What&apos;s New</string>
+			<key>detail</key>
+			<string>Each update to the app will display a summary sheet of new features. You can review this list at any time from the Help screen.</string>
+			<key>icon</key>
+			<string>WIN_News</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>iOS 10+ Compatibility</string>
+			<key>detail</key>
+			<string>Updated to run on all of the latest operating system updates.</string>
+			<key>icon</key>
+			<string>WIN_IOS_10</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Swift Language</string>
+			<key>detail</key>
+			<string>App is now fully converted to take advantage of the latest advanced features of Apple&apos;s newest programming language, Swift 3+.</string>
+			<key>icon</key>
+			<string>WIN_Swift</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>iPad Pro Compatibility</string>
+			<key>detail</key>
+			<string>Compatible with all iPhone, iPod Touch, iPad Mini, iPad and now the newly released iPad Pro device models.</string>
+			<key>icon</key>
+			<string>WIN_Size</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>3D Touch Home Shortcuts</string>
+			<key>detail</key>
+			<string>Devices with 3D Touch capability (iPhone 6S and 6S Plus) can now take advantage of direct access menu features from the Home screen. </string>
+			<key>icon</key>
+			<string>WIN_Touch</string>
+		</dict>
+	</array>
+</dict>
+</plist>

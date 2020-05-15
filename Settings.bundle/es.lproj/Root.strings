@@ -1,0 +1,8 @@
+// ES - Spanish
+
+/* A single strings file, whose title is specified in your preferences schema.
+ The strings files provide the localized content to display to the user for each of your preferences. */
+
+"Version" = "Versión";
+"License" = "Licencia";
+"Copyright" = "©2016-2020 Squareframe, LLC.\n\nSquareframe, Sus logotipos e indicios son marcas registradas de Squareframe, LLC.\n\nTodos los derechos de los Estados Unidos e Internacional Reservados.";

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Keys</key>
+	<array>
+		<string>App Overview|Settings|Selecting Photos|Frame Options|Placing Orders|About|Help|3D-Touch|Conclusion</string>
+	</array>
+	<key>Images</key>
+	<array>
+		<string>Help_Topic|Help_Settings|Help_Photos|Help_Frames|Help_Orders|Help_About|Help_Generic|Help_3D|Help_Topic</string>
+	</array>
+	<key>App Overview</key>
+	<array>
+		<string>Overview|1|1|Title</string>
+		<string>Overview|2|2|Body</string>
+		<string>Overview|3|3|Section</string>
+	</array>
+	<key>Settings</key>
+	<array>
+		<string>Settings|1|1|Title</string>
+		<string>Settings|2|2|Body</string>
+		<string>Settings|3|3|Section</string>
+	</array>
+	<key>Selecting Photos</key>
+	<array>
+		<string>SelectingPhotos|1|1|Title</string>
+		<string>SelectingPhotos|2|2|Body</string>
+		<string>SelectingPhotos|3|3|Section</string>
+	</array>
+	<key>Frame Options</key>
+	<array>
+		<string>FrameOptions|1|1|Title</string>
+		<string>FrameOptions|2|2|Body</string>
+		<string>FrameOptions|3|3|Section</string>
+	</array>
+	<key>Placing Orders</key>
+	<array>
+		<string>PlacingOrders|1|1|Title</string>
+		<string>PlacingOrders|2|2|Body</string>
+		<string>PlacingOrders|3|3|Section</string>
+	</array>
+	<key>About</key>
+	<array>
+		<string>About|1|1|Title</string>
+		<string>About|2|2|Body</string>
+		<string>About|3|5|Section</string>
+	</array>
+	<key>Help</key>
+	<array>
+		<string>Help|1|1|Title</string>
+		<string>Help|2|2|Body</string>
+		<string>Help|3|4|Section</string>
+	</array>
+	<key>3D-Touch</key>
+	<array>
+		<string>3D-Touch|1|1|Title</string>
+		<string>3D-Touch|2|2|Section</string>
+	</array>
+	<key>Conclusion</key>
+	<array>
+		<string>Conclusion|1|1|SubHeader_NoCR</string>
+		<string>Conclusion|2|2|Header</string>
+		<string>Conclusion|3|3|SubHeader</string>
+		<string>Conclusion|4|4|Body</string>
+	</array>
+	<key>Developer Notes</key>
+	<array>
+		<string>DEVELOPER NOTE: Each entry should have a KEY, start Index, end Index, Attribute type. Load on app side as an string and separate by &quot;|&quot; components</string>
+	</array>
+</dict>
+</plist>

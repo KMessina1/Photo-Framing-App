@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Adhoc Releases</key>
+	<dict>
+		<key>Version: 2.20.xx</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Jan. 12, 2020 thru Feb. 04, 2020</string>
+			<key>Changes</key>
+			<array>
+				<string>Changed out Colors libraries to new updated one.</string>
+				<string>Instagram Login library brought internal from Cocoa Pod as to be able to hide the progress bar. </string>
+				<string>Removed Import LoginInstagram from 3 VCs that use loging (Get started, Account settings, Photo Browser)</string>
+				<string>Added actSheet.setTint(color: gAppColor) to handle the setting of cancel color in iOS 13.</string>
+				<string>VC Checkout STRIPE API change:  let cardID = paymentResult.paymentMethod?.stripeId ?? &quot;&quot; // New version</string>
+				<string>Instagram Login Avatar logic reversed so Instagram Manager is refreshed first before sending notificaiton to refresh table.</string>
+			</array>
+		</dict>
+		<key>2.04.01 thru 2.04.02</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Dec. 22, 2018 thru Dec. 28, 2018</string>
+			<key>Changes</key>
+			<array>
+				<string>Photo viewer details [info] showing frame sizes for photo.</string>
+				<string>App pref keys replacing last launch version text.</string>
+				<string>Last Launch Version checking to determine if update reset required.</string>
+			</array>
+		</dict>
+		<key>2.00.01 thru 2.00.01</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Oct. 10, 2018 thru Oct. 17, 2018</string>
+			<key>Changes</key>
+			<array>
+				<string></string>
+			</array>
+		</dict>
+		<key> 1.90.01 thru 1.91.03</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Oct. 10, 2018 thru Oct. 17, 2018</string>
+			<key>Changes</key>
+			<array>
+				<string>Updated to latest CMS Server settings.</string>
+			</array>
+		</dict>
+		<key>1.90.02 thru 1.90.02</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Sep. 19, 2018 thru Sep. 19, 2018</string>
+			<key>Changes</key>
+			<array>
+				<string>! Services Crash</string>
+			</array>
+		</dict>
+		<key>1.90.01 thru 1.90.01</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Sep. 11, 2018 thru Sep. 11, 2018</string>
+			<key>Changes</key>
+			<array>
+				<string>* CHECKOUT: Updated Phone formatting when saving.</string>
+				<string>* CHECKOUT: Updated PDF reports.</string>
+			</array>
+		</dict>
+		<key>1.80.13 thru 15</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Jul. 26, 2018 thru Jul. 27, 2018</string>
+			<key>Changes</key>
+			<array>
+				<string>- Removed Saved message for updating customer and address.</string>
+				<string>* Changed color of end-order message button NO.</string>
+				<string>* Changed text replacing Moltin with CMS on Audit screen at end of order.</string>
+				<string>+ CHECKOUT: Added &quot;US&quot; as default country when adding new addresses.</string>
+				<string>! CHECKOUT: Fixed bug in renaming photos which was not processing each phoot in item cart.</string>
+			</array>
+		</dict>
+		<key>1.80.03 thru 08</key>
+		<dict>
+			<key>Distributed</key>
+			<string>Jul. 19, 2018 thru Jul. 23, 2018</string>
+			<key>Changes</key>
+			<array>
+				<string>+ APP: Added ChangeLog.plist in lieu of Changes.RTF text file for tracking changes.</string>
+				<string>! SHARE: Fixed thank you appearing even if email cancelled.</string>
+				<string>+ SHARE: Added cancelled message if email cancelled.</string>
+				<string>+ LEFT MENU: Added &quot;Rate this app&quot; now.</string>
+				<string>* Updated Contact Us Email Links to app store and app store website.</string>
+				<string>* Updated SHARE Email links and verbiage.</string>
+				<string>! GET STARTED: Fixed frame color natural not appearing as natural when app initially installed.</string>
+				<string>+ SHOPPING CART: CMS Server=off Bypass for Stephen and Kevin customer ID&apos;s.</string>
+				<string>* PAY.PHP SCRIPT Changed TaxJar to use Total instead of Sub Total. </string>
+				<string>* SHOPPING CART Changed the row height for iPads and cleaned up UI a little for more consistent appearance on wide displays.</string>
+				<string> * Contact Us No Email now handles Apple Standard or CAS standard message styles.</string>
+				<string>+ Added Not Avail message for Frame Preview on iPad.</string>
+				<string>- Removed iPad not implemented messages.</string>
+				<string>+ Phone numbers were not stripping the formatting before saving or updating address.</string>
+				<string>+ Zip Codes were not stripping the formatting before saving or updating address.</string>
+			</array>
+		</dict>
+	</dict>
+	<key>App Store Releases</key>
+	<dict>
+		<key>1.91.01</key>
+		<dict>
+			<key>Submitted</key>
+			<string>Oct. 20, 2018</string>
+		</dict>
+		<key>1.90.01</key>
+		<dict>
+			<key>Submitted</key>
+			<string>Sep. 11, 2018</string>
+		</dict>
+		<key>1.81.04</key>
+		<dict>
+			<key>Submitted</key>
+			<string>Jul. 31, 2018</string>
+		</dict>
+		<key>1.80.03</key>
+		<dict>
+			<key>Submitted</key>
+			<string>Jul. 25, 2018</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,402 @@
+/* en (ENGLISH) Localized Strings */
+
+// Mark: - *** APP SHORTCUTS (HOME SCREEN) ***
+"shortcut_Open_1_Title" = "Frame Gallery";
+"shortcut_Open_1_Subtitle" = "";
+"shortcut_Open_2_Title" = "Select Photo";
+"shortcut_Open_2_Subtitle" = "";
+"shortcut_Open_3_Title" = "Order History";
+"shortcut_Open_3_Subtitle" = "";
+"shortcut_Open_4_Title" = "Settings";
+"shortcut_Open_4_Subtitle" = "";
+
+//Mark: - *** GENERAL TERMS ***
+"New" = "New";
+"New!" = "New!";
+"Frame Style" = "Style";
+"Frame Material" = "Material";
+"Frame Color" = "Frame Color";
+"Format" = "Format";
+"Style/Shape" = "Style/Shape";
+"frame" = "Frame";
+"frames" = "Frames";
+"framed" = "Framed";
+"Black" = "Black";
+"White" = "White";
+"Natural" = "Natural";
+"Gray Wash" = "Gray Wash";
+"Gray" = "Gray Wash";
+"Walnut" = "Walnut";
+"Brown" = "Walnut";
+"Square" = "Square";
+"Rectangular" = "Rectangular";
+"Rectangular_Landscape" = "Rectangular (Landscape)";
+"Rectangular_Portrait" = "Rectangular (Portrait)";
+"Standard" = "Standard";
+"Slimline" = "Slimline";
+"Wood" = "Wood";
+"photo" = "photo";
+"Photo" = "Photo";
+"size" = "size";
+"Size" = "Size";
+"color" = "color";
+"Color" = "Color";
+"preview" = "preview";
+"Preview" = "Preview";
+"website" = "website";
+"Website" = "Website";
+"in the Appstore" = "in the Appstore";
+"Failed" = "Failed";
+
+// MARK: - *** COPY FILE MESSAGING ***
+"Copy.Failed_Title" = "COPY FILES";
+"Copy.Failed_Msg" = "A problem happened copying files initializing the app. Please force delete the app and redownload again.";
+
+// MARK: - *** SIREN FORCE UPDATE MESSAGING ***
+"Siren_Update_Title" = "UPDATE AVAILABLE";
+"Siren_Update_Msg" = "A newer version is available and is required to continue with purchase.\n\nPlease download from Appstore.";
+"Siren_Update_UpdateButton_Title" = "Update";
+"Siren_Update_NextTimeButton_Title" = "Next Launch";
+"Siren_Update_SkipVersionButton_Title" = "Skip";
+
+// MARK: - *** SHARE SCREEN ***
+"Share_Twitter_Msg" = "Check out Squareframe, the framing app for your Instagram and other photos.\n\n#Squareframe\n\nView in the App Store:";
+"Share_Facebook_Msg" = "Check out Squareframe, the framing app for your Instagram and other photos.\n\nTap the link below to view in the App Store.";
+"Share_Mail_Msg1" = "Check out Squareframe, the framing app for your Instagram and other photos.<br><br>Tap the link below to view in the App Store.";
+"Share_Mail_Msg2" = "view from Mobile Devices";
+"Share_Mail_Msg3" = "view from Computer";
+"Share_Mail_Subject" = "Your friend recommended the Squareframe app for you...";
+"Share_SMS_Msg1" = "Check out Squareframe, the framing app for your Instagram and other photos.";
+"Share_SMS_Msg2" = "Tap the link below to view in App Store.";
+"Share_Copy_Msg1" = "Check out Squareframe, the framing app for your Instagram and other photos.\n\nTap the link below to view in the App Store.";
+"Share_Copy_Msg2" = "view from Mobile Devices";
+"Share_Copy_Msg3" = "view from Computer";
+
+// MARK: - *** INFO OVERLAY SCREEN ***
+"InfoOverlay_Header" = "Instructions";
+"InfoOverlay_Title" = "TIPS";
+"InfoOverlay_Tip1" = "Tap photo to select";
+"InfoOverlay_Tip2" = "Tap frame to preview";
+"InfoOverlay_Tip3" = "Swipe ⬅︎/➡︎ changes color";
+"InfoOverlay_Tip4" = "Swipe ⬆︎/⬇︎ changes size";
+"InfoOverlay_Slide1_Title" = "To Select Photo";
+"InfoOverlay_Slide1_Descrip" = "Tap on the PHOTO to select\n";
+"InfoOverlay_Slide2_Title" = "To Preview";
+"InfoOverlay_Slide2_Descrip" = "Tap on the FRAME to preview\n";
+"InfoOverlay_Slide3_Title" = "Change Color";
+"InfoOverlay_Slide3_Descrip" = "Swipe ⬅︎/➡︎ to select";
+"InfoOverlay_Slide4_Title" = "Change Size";
+"InfoOverlay_Slide4_Descrip" = "Swipe ⬆︎/⬇︎ to select";
+
+// MARK: - *** FAQ SCREEN ***
+"FAQ" = "FAQs";
+
+// MARK: - *** HOME SCREEN ***
+"Home(SF)_GetStarted" = "Get Started";
+
+// MARK: - *** POLICIES SCREEN ***
+"Policy(SF)_Title" = "VIEW POLICIES";
+"Policy(SF)_Privacy" = "Privacy";
+"Policy(SF)_Warranty" = "Warranty";
+"Policy(SF)_Refunds" = "Refunds";
+
+// MARK: - *** LEFT MENU ***
+"Menu_Home" = "Home";
+"Menu_GetStarted" = "Get Started";
+"Menu_Frames" = "Frames";
+"Menu_Orders" = "Order History";
+"Menu_AccountInfo" = "Account Info";
+"Menu_FAQ" = "FAQs";
+"Menu_Contact Us" = "Contact Us";
+"Menu_Share" = "Share";
+"Menu_Rate" = "Rate Us";
+
+// MARK: - *** SHARE ***
+"Share_Title" = "Share Squareframe!";
+"Share_Blurb" = "Tell your family and friends about Squareframe...";
+
+// MARK: - *** FRAME OPTIONS ***
+"Frames(SF)_Title" = "Frames";
+"Frames(SF)_Descrip" = "Our frames are made of sustainable New Zealand pine wood, premium luster photo paper, UV filter acrylic glass, and acid-free matting for years of superior, fade-resistant, quality and enjoyment. They are available in six sizes (frames for 4x4\", 5x5\", 8x8\" square prints and 4x6\", 5x7\", and 8x10\" rectangular prints) and five high-quality colors and stains (Natural, Black, White, Walnut, and Gray Wash).";
+"Frames(SF)_Frames" = "Frames";
+"Frames(SF)_Note" = "Note: All frames have a white matte surrounding photo.";
+"Frames(SF)_Finished" = "Finished";
+"Frames(SF)_AspectSquare" = "square";
+"Frames(SF)_AspectRect" = "rectangular";
+"Frames(SF)_Summary" = "Summary";
+"Frames(SF)_Square" = "Square";
+"Frames(SF)_Rectangular" = "Rectangle";
+"Frames_Get_Square" = "Getting Square Frame Info";
+"Frames_Get_Rect" = "Getting Rectangualar Frame Info";
+"Frames_Get_All" = "Getting Frame Info";
+"Frames_Info_Description_1" = "Our frames are made of sustainable New Zealand pine wood,";
+"Frames_Info_Description_2" = "premium luster photo paper, UV filter acrylic glass, and acid-free matting";
+"Frames_Info_Description_3" = "for years of superior, fade-resistant, quality and enjoyment.";
+"FramePreview_Title" = "PREVIEW";
+"FramePreview_Msg" = "You must select a photo before previewing.";
+
+// MARK: - *** ORDER HISTORY ***
+"Orders(SF)_Title" = "Order History";
+"Orders_Total_Orders" = "Total Orders";
+"Orders_Total_Amount" = "Total Amount";
+"Orders_NotProcessed_Title" = "ORDER HISTORY";
+"Orders_NotProcessed_Msg" = "This order was not completed and details cannot be displayed.";
+"Orders_NotFound_Title" = "ORDER HISTORY";
+"Orders_NotFound_Msg" = "No orders have been found for your account.";
+
+// MARK: - *** CART ***
+"Cart(SF)_FrameFormat" = "Frame Format";
+"Cart(SF)_Framed" = "framed";
+"Cart(SF)_PerFrame" = "per frame";
+"Cart_AddTo" = "Add to Cart";
+"Cart_FrameInfo" = "View Details";
+"Cart_AddError_Title" = "CART ERROR";
+"Cart_AddError_Msg" = "There was an error adding item in cart. Try again.";
+"Cart_AddErrorPhoto_Title" = "PHOTO ERROR";
+"Cart_AddErrorPhoto_Msg" = "There was a problem locating this photo. Please select it again and then try to add to cart.";
+"Cart_UpdateError_Title" = "CART ERROR";
+"Cart_UpdateError_Msg" = "There was an error updating item in cart. Try again.";
+"Cart_DeleteError_Title" = "CART ERROR";
+"Cart_DeleteError_Msg" = "There was an error deleting item in cart. Try again.";
+"Cart_Emptying" = "Emptying Cart";
+"Customer" = "Customer";
+"customer" = "customer";
+"Correct information" = "Correct the following information";
+"Country must be US" = "Country must be US";
+"Cart.Create.Error_Title" = "CART ERROR";
+"Cart.Create.Error_Msg" = "There was a problem creating your shopping cart. Please try again.";
+"Cart.Customer.Create.Error_Title" = "CART ERROR";
+"Cart.Customer.Create.Error_Msg" = "There was a problem creating you as a new customer. Please try again.";
+"Cart.AddItems" = "Items to Cart";
+"Cart.Order.Error_Title" = "CART/ORDER ERROR";
+"Cart.Order.Error_Msg" = "There was a problem converting your Shopping Cart to an Order. Please try again.";
+
+// MARK: - *** CUSTOMERS ***
+"Customers_NotFilledOut_Title" = "CUSTOMER INFO";
+"Customers_NotFilledOut_Msg" = "Your account is not set. Please enter your email address in Account Settings before trying to view your Order History.";
+
+// MARK: - *** COUPONS ***
+"coupon.error_Title" = "COUPON ERROR";
+"coupon.error_Msg" = "Error Getting Coupons from server.";
+"coupon.error.Delete_Title" = "COUPON ERROR";
+"coupon.error.Delete_Msg" = "Error Deleting Coupons from server.";
+
+// MARK: - *** ORDERS ***
+"Searching for addresses..." = "Searching for addresses...";
+"Processing addresses..." = "Processing addresses...";
+"Order_DateTitle" = "Date";
+"Order_NumberTitle" = "Number";
+"Order_ItemsTitle" = "Items";
+"Order_TotalTitle" = "Total";
+"Order_StatusTitle" = "Status";
+"Order_ShippedToTitle" = "Shipped To";
+"Order_Last" = "Last Order";
+"Order_OutOfStock_Title" = "OUT OF STOCK";
+"Order_OutOfStock_Msg" = "Unfortunately, this frame is temporarily out of stock. Please select a different color or size.";
+"Order_LimitedStock_Title" = "LIMITED STOCK";
+"Order_LimitedStock_Msg" = "This frame has {qtyOnHand} available in stock. Please enter lower quantity or select a different color or size.";
+"Order_ShippingMethod" = "USPS Standard Priority";
+"Order_Failed_Title" = "ORDER FAILED";
+"Order_Failed_Msg" = "Order failed, please try again.";
+"Order_Update_Failed_Title" = "ORDER UPDATE FAILED";
+"Order_Update_Failed_Msg" = "Order Update failed, please try again.";
+"Order_Update_Failed_SalesTax_Msg" = "Order Update for Sales Tax failed, please try again.";
+"Order_Update_Failed_Discount_Msg" = "Order Update for Discount failed, please try again.";
+"Order_Update_Failed_CustomerID_Title" = "Order Update for CustomerID failed, please try again.";
+"Order_Payment_Denied_Title" = "PAYMENT DECLINED";
+"Order_Payment_Denied_Msg" = "Your method of payment was declined. Please check all information is correct or use another.";
+"Order.Payment.NotSelected.Title" = "PAYMENT INVALID";
+"Order.Payment.NotSelected.Msg" = "Please reselect payment method.";
+"Order_Payment_Denied_Reason_Title" = "Reason";
+"Order_Payment_Denied_Reason_Msg" = "Choose another payment method.";
+"USPS Standard Priority" = "USPS Standard Priority";
+"Order" = "Order";
+"Order.NotCompleted" = "ORDER NOT COMPLETED";
+
+// MARK: - *** CHECKOUT ***
+"Checkout_Items" = "Item(s):";
+"Checkout_Shipping" = "Shipping:";
+"Checkout_SalesTax" = "GA Sales Tax:";
+"Checkout_Discount" = "Discount:";
+"Checkout_Total" = "Total:";
+"CustNum_NotSet" = "Account not found";
+"CustNum_NotFound" = "New";
+"Contact Info" = "Contact Info";
+"Ship to" = "Ship to";
+"Gift Message" = "Gift Message";
+"Bill to" = "Bill to";
+"Select Ship To" = "SELECT \"SHIP TO\" ADDRESS FROM";
+"Select Your Address" = "SELECT \"YOUR\" ADDRESS FROM";
+"Contacts" = "Contacts";
+"New" = "New";
+"Saved" = "Saved";
+"Select Payment" = "SELECT \"PAYMENT\" FROM";
+"Select Bill to" = "SELECT \"BILL TO\" ADDRESS FROM";
+"Same As Ship to" = "Same as Ship to";
+"Same As Contact" = "Same As Contact";
+"Processing Order..." = "Processing Order...";
+"Processing Payment..." = "Processing Payment...";
+"Calculating Sales Tax..." = "Calculating Sales Tax...";
+"Applying Discount..." = "Applying Discount...";
+"Updating Order Total..." = "Updating Order Total...";
+"Checkout.ApplePay" = "Use your Apple Pay account for this purchase.";
+"Checkout.ComplimentaryOrder" = "COMPLIMENTARY ORDER:\nNo Payment is necessary.";
+"Checkout.NoPaymentSelected" = "Select Payment Type";
+"Checkout.Validating Coupon" = "Validating Coupon...";
+"Checkout.CustomerID.Missing_Title" = "CUSTOMER";
+"Checkout.CustomerID.Missing_Msg" = "There was a problem completing your order. Please try again.";
+
+// MARK: - *** FEED ***
+"Feed(SF)_Title" = "Choose photos from...";
+"Feed(SF)_Recents" = "Recents";
+"Feed(SF)_NotFound" = "Following list not found.";
+
+// MARK: - *** PHOTO PREVIEW ***
+"PhotoPrev(SF)_Format" = "Photo Format:";
+"PhotoPrev(SF)_Size" = "Photo Size:";
+"PhotoPrev(SF)_FrameSize" = "Frame Size(s):";
+"PhotoPrev_Size" = "Photo Size";
+"photoSource.choose_title" = "Select Photo";
+"photoSource.choose_msg" = "Continue to Instagram\nOR\nAccess your Photo Library?";
+"photoSource.choose_PhotoLibrary" = "Photo Library";
+"photoSource.choose_Instagram" = "Instagram";
+"photoSource.processing" = "Processing photo...";
+"photo.showDetails.Title" = "Photo Details";
+"photoSource.select_title" = "SELECT PHOTO FROM";
+
+// MARK: - *** ACCOUNT SETTINGS ***
+"Settings_Theme" = "Color Theme";
+"Settings_SFAcct" = "Account";
+"Settings_Privacy" = "Privacy Policy";
+"Settings_MailList_Notes" = "Sign up to receive emails about updates, special offers, and other items of interest. Don't worry, we won't flood your inbox with pointless emails.";
+"Name & Email" = "Name & Email";
+"Account.Reset_Title" = "Reset App Settings";
+"Account.Reset_Msg" = "Reset all saved app settings?";
+"Account.Reset.Alert_Title" = "RESET APP SETTINGS?";
+"Account.Reset.Alert_Msg" = "You can reset Photo information if app can no longer find your photo or All information to reset Photo + your login information.";
+"Account.Reset.Alert_Btn_Photo" = "RESET Photo Info Only";
+"Account.Reset.Alert_Btn_All" = "RESET All Information";
+"Account.Reset.Alert_ResetPhoto_Title" = "PHOTO INFORMATION";
+"Account.Reset.Alert_ResetPhoto_Msg" = "Your selected photo information has been reset.";
+"Account.Reset.Alert_ResetAll_Title" = "APP INFORMATION";
+"Account.Reset.Alert_ResetAll_Msg" = "Your app information has been reset.";
+
+// MARK: - *** PDF REPORTS ***
+"PDF_FOOTER_ORDER1" = "For questions regarding this order,\ncontact us at orders@sqframe.com.";
+"PDF_FOOTER_ORDER2" = "Our policies are availalbe within our app or website www.sqframe.com.";
+"PDF_ORDER_TITLE" = "Order Details";
+"PDF_PACKINGSLIP_TITLE" = "Packing Slip";
+"PDF_GIFT_TITLE" = "Enjoy Your Gift";
+"PDF_GIFTMSG_TITLE" = "Gift Message";
+"PDF_SHIPTO_TITLE" = "Ship To";
+"PDF_FROM_TITLE" = "From";
+"PDF_CUSTOMER_TITLE" = "Customer";
+"PDF_ORDERNUM_TITLE" = "Order Number";
+"PDF_ORDERDATE_TITLE" = "Order Date";
+"PDF_PAYMENTMETHOD_TITLE" = "Payment Method";
+"PDF_PAYMENTCARD_TITLE" = "Card ending in";
+"PDF_SHIPMETHOD_TITLE" = "Shipping Method";
+"PDF_SHIPTRACKING_TITLE" = "Tracking Number";
+"PDF_SHIPUSPS_TITLE" = "USPS Standard Priority";
+"PDF_PRIVACY_TITLE" = "Privacy";
+"PDF.OrderDetails.Msg" = "Building Order Details PDF...";
+"PDF.OrderConfirmation.Msg" = "Building Order Confirmation PDF...";
+"PDF.Payment.Coupon_Title" = "PROMO CODE";
+
+// MARK: - *** HELP ***
+"Help(SF)_Topics" = "Topics";
+"Help(SF)_Key_App Overview" = "App Overview";
+"Help(SF)_Key_Settings" = "Settings";
+"Help(SF)_Key_Selecting Photos" = "Selecting Photos";
+"Help(SF)_Key_Frame Options" = "Frame Options";
+"Help(SF)_Key_Placing Orders" = "Placing Orders";
+"Help(SF)_Key_About" = "About This App";
+"Help(SF)_Key_Help" = "Help";
+"Help(SF)_Key_3D-Touch" = "3D-Touch";
+"Help(SF)_Key_Conclusion" = "Conclusion";
+// MARK: ├─➤ Overview
+"Help(SF)_Overview_1" = "App Overview";
+"Help(SF)_Overview_2" = "t/b/d...";
+"Help(SF)_Overview_3" = "";
+// MARK: ├─➤ Settings
+"Help(SF)_Settings_1" = "Settings";
+"Help(SF)_Settings_2" = "t/b/d...";
+"Help(SF)_Settings_3" = "";
+// MARK: ├─➤ Selecting Photos
+"Help(SF)_SelectingPhotos_1" = "Selecting Photos";
+"Help(SF)_SelectingPhotos_2" = "t/b/d...";
+"Help(SF)_SelectingPhotos_3" = "";
+// MARK: ├─➤ Frame Options
+"Help(SF)_FrameOptions_1" = "Frame Options";
+"Help(SF)_FrameOptions_2" = "t/b/d...";
+"Help(SF)_FrameOptions_3" = "";
+// MARK: ├─➤ Placing Orders
+"Help(SF)_PlacingOrders_1" = "Placing Orders";
+"Help(SF)_PlacingOrders_2" = "t/b/d...";
+"Help(SF)_PlacingOrders_3" = "";
+// MARK: ├─➤ About
+"Help(SF)_About_1" = "About Screen";
+"Help(SF)_About_2" = "This is where you can learn more about this app or send us an Email.";
+"Help(SF)_About_3" = "CONTACT US:: Send us an email with your questions, suggestions or ideas. We love to hear feedback from our customers!";
+"Help(SF)_About_4" = "APP VERSION:: Various information listed in the event that technical support is needed.";
+"Help(SF)_About_5" = "HELP:: Displays this screen.";
+// MARK: ├─➤ Help
+"Help(SF)_Help_1" = "Help Screen";
+"Help(SF)_Help_2" = "The Help Screen (what you are viewing right now) is available from all primary screens throughout the app. This is the User Manual for using this app and getting the most out of it by understanding its rich set of features and how to use them.";
+"Help(SF)_Help_3" = "WHAT'S NEW:: Toggles the display of a summary of new features in the last version update.";
+"Help(SF)_Help_4" = "TEXT SIZE:: Drag to adjust the size of the text on display in this window.";
+// MARK: ├─➤ 3D-Touch
+"Help(SF)_3D-Touch_1" = "3D-Touch";
+"Help(SF)_3D-Touch_2" = "HOME SCREEN ICON:: Deep press the app's icon on the home screen to reveal a menu of options to quickly jump to a specific screen and/or function. (Not available on all device models. Please refer to your owners manual to see if 3D Touch is available on your device).";
+// MARK: ├─➤ Conclusion
+"Help(SF)_Conclusion_1" = "We hope you enjoy using";
+"Help(SF)_Conclusion_2" = "\(appInfo.EDITION.FullName)";
+"Help(SF)_Conclusion_3" = "Visit our website";
+"Help(SF)_Conclusion_4" = "\nIf you've enjoyed using our app, we'd really appreciate it if you could take a minute to give us a good rating in the iTunes App Store.";
+
+
+// ------------------------------------------------------------------------------------------------------------------------
+
+
+// MARK: - *** LOCAL ALERT MESSAGES ***
+// MARK: ├─➤ SERVER
+"SERVER_CustomerNmberNotFound_Msg" = "Customer Number not found on server.";
+"SERVER_CustomerOrdersNotFound_Msg" = "Customer Orders not found on server.";
+"SERVER_IncompleteMyInfo_Title" = "INCOMPLETE INFORMATION";
+"SERVER_IncompleteMyInfo_Msg" = "You must first complete your Name & Address information before using this function.";
+"SERVER_IncompleteMyInfo_Msg_GoTo" = "Do you want to enter your Name & Address information now?";
+"SERVER_ORDERS_NONE_TITLE" = "NO ORDER HISTORY";
+"SERVER.Account.NotFound.titleInvlaid" = "INVALID ACCOUNT";
+"SERVER.Account.NotFound.title" = "ACCOUNT NOT FOUND";
+"SERVER.Account.NotFound.msg" = "An existing Squareframe account was not found for this email address. If you are an EXISTING customer, please check the email address and enter again.\n\nOtherwise continue as a NEW customer.";
+"SERVER.Account.EnterAtCheckout" = "New customers enter at Checkout.";
+"SERVER.Account.IDNotFound.msg" = "A Squareframe account for {id} not found.";
+"SERVER.Account.Searching" = "Searching for account...";
+"SERVER.Orders.Searching" = "Searching for Customer Orders...";
+"SERVER.Addresses.Searching" = "Searching for saved Addresses...";
+"SERVER.SalesTax.Searching" = "Searching for Sales Tax Rate...";
+"SERVER.SalesTax.NotFound.title" = "ADDRESS NOT FOUND";
+"SERVER.SalesTax.NotFound.msg" = "Sales tax for the zip code entered is not valid.";
+"SERVER.Account.UpdateMailingList" = "Updating Mailing Preference...";
+"Server.DontIntterrupt.Title" = "IMPORTANT!";
+"Server.DontIntterrupt.Msg" = "You are about to upload your photos to be printed.\n\nPlease do not exit the app or turn off your device until upload has completed. Thanks!";
+"Server.FailedCreateOrder.Msg" = "ORDER FAILED";
+"Server.CreatingOrderFolder.Msg" = "Creating Order Folder...";
+"Server.CreatingOrderFolder.Failed.Msg" = "Failed to create Order Folder on server.";
+"Server.UploadingFiles.Msg" = "Preparing Files to Upload...";
+"Server.UploadingFiles.Failed.Msg" = "Failed to upload {file} to server.";
+"Server.SendingEmail_Customer.Msg" = "Sending Customer Notification...";
+"Server.SendingEmail_Customer.Failed.Msg" = "Failed to send Customer Notification.";
+"Server.SendingEmail_Company.Msg" = "Sending Company Notification...";
+"Server.SendingEmail_Company.Failed.Msg" = "Failed to send Copmany Notification.";
+"Server.viewLastOrder.Title" = "THANK YOU!";
+"Server.OrderPDFNotFound.Msg" = "Receipt for order\n#{orderNum}\nwas not found.";
+"Server.noEmail.Title" = "INVALID EMAIL";
+"Server.noEmail.Msg" = "Email is not in a valid format or is blank.";
+"Server.CustomerAddError.Title" = "ERROR OCCURRED";
+"Server.CustomerAddError.Msg" = "There was a problem getting/saving Customer information.";
+
+// MARK: ├─➤ INPUT DATA ENTRY
+"InputData_ReliantFldBlank_Title" = "RELIANT FIELD BLANK";
+"InputData_ReliantFldBlank_Msg" = "You must first enter\n\n";
+

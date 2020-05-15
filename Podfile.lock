@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - CodableAlamofire (1.1.2):
+    - Alamofire (~> 4.0)
+  - GRDB.swift (4.14.0):
+    - GRDB.swift/standard (= 4.14.0)
+  - GRDB.swift/standard (4.14.0)
+  - KeepBackgroundCell (0.2.0)
+  - Locksmith (4.0.0)
+  - RappleProgressHUD (4.1)
+  - Siren (5.4.0)
+  - SlideMenuControllerSwift (4.0.0)
+  - Stripe (19.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireImage
+  - CodableAlamofire
+  - GRDB.swift
+  - KeepBackgroundCell
+  - Locksmith
+  - RappleProgressHUD
+  - Siren
+  - SlideMenuControllerSwift
+  - Stripe
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - CodableAlamofire
+    - GRDB.swift
+    - KeepBackgroundCell
+    - Locksmith
+    - RappleProgressHUD
+    - Siren
+    - SlideMenuControllerSwift
+    - Stripe
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  CodableAlamofire: b7adfb2e5e980392014b4b3f3b8b62c01b9de4aa
+  GRDB.swift: 8cc3ab7c8b8b4ac1761deb8dca4b51c1c9d429f8
+  KeepBackgroundCell: d8f02dbb2bb99f2fcd21b3ab94516c4d54208989
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  RappleProgressHUD: f29bc5dc5f9834c2caa9c2ae21ba11f3ff2b5a85
+  Siren: 9df16ed5278cfaad7ea034f3d2206e4f6983e9b8
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+  Stripe: d481c2dab9a892fd923f097f854661217f70dc7f
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 39079c6223377fa4be1b542c7e0f56f302175038
+
+COCOAPODS: 1.8.4

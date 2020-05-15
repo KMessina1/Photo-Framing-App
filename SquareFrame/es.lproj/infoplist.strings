@@ -1,0 +1,10 @@
+/* es (SPANISH) Localized Strings */
+
+// MARK: - *** SHORTCUTS ***
+
+// MARK: - *** BUNDLE ***
+"NSPhotoLibraryUsageDescription" = "Las fotos se pueden seleccionar convenientemente de su biblioteca.";
+"NSContactsUsageDescription" = "Las direcciones se pueden seleccionar de sus contactos.";
+
+
+
