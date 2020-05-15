@@ -15,7 +15,7 @@ import Alamofire
 // MARK: ├─➤ Customers
 var customerInfo:CustomerInfo!
 
-// MARK: ├─➤ Instagram
+// MARK: ├─➤ Photos
 var photos:[Photo] = [Photo].init()
 
 // MARK: ├─➤ Alamo Fire
@@ -39,7 +39,7 @@ var pdfAuthorInfo:[AnyHashable:Any]! = [:]
 
 
 // MARK: - *** GLOBAL ENUM CONSTANTS ***
-// MARK: ├─➤ Instagram
+// MARK: ├─➤ Photos
 enum photoSource:Int { case UNSELECTED,PHOTOS }
 
 let SQUARE = "Square"

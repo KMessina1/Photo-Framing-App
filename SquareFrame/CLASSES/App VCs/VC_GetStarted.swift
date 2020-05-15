@@ -177,7 +177,7 @@ class VC_getStarted:
             Photo.selectedPhoto.keyChain().load()
             item.photoInfo = Photo.init(
                 name:selectedPhoto.filename,
-                url:selectedPhoto.instagramURL
+                url:selectedPhoto.photoURL
             )
         }else{
             item.photoInfo = Photo.init()
@@ -284,8 +284,8 @@ class VC_getStarted:
             /* Already in cart? */
             waitHUD().showNow(msg:"WAIT_PRODUCTS_INFO".localizedCAS())
 
-            let InstagramURL = tempItem.photoInfo?.url ?? "" // Used as photo unique ID even if product SKU is same in order.
-            let match = localCart.hasItem(SKU: item.SKU, instagramImageURL: InstagramURL)
+            let photoURL = tempItem.photoInfo?.url ?? "" // Used as photo unique ID even if product SKU is same in order.
+            let match = localCart.hasItem(SKU: item.SKU, instagramImageURL: photoURL)
             if match.found { qtyToAdd += match.qty }
 
 // MARK: ├─➤ Create product thumbnail image.
@@ -312,14 +312,14 @@ class VC_getStarted:
 
             /* Copy selected to item Photo */
             let photoFilename = "photo_\( item.SKU! )_\( selectedPhoto.filename! )"
-            let photoURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+            let PhotoURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
                 .appendingPathComponent(photoFilename)
 
             if sharedFunc.FILES().exists(filePathAndName: selectedPhotoFilepath).isTrue {
                 do {
                     try FileManager.default.copyItem(
                         atPath: selectedPhotoFilepath,
-                        toPath: photoURL.path
+                        toPath: PhotoURL.path
                     )
                     simPrint().success("Photo file copied to: \( photoFilename )",function:#function,line:#line)
                 } catch let error1 as NSError {
@@ -343,7 +343,7 @@ class VC_getStarted:
                 frame_material: item.material,
                 photo_ThumbnailFileName: thumbnailFilename,
                 photo_FullSizeFileName: photoFilename,
-                instagramImageURL: InstagramURL,
+                instagramImageURL: photoURL,
                 quantity: item.quantity,
                 price: Decimal(item.price),
                 amount: Decimal(item.amount),
@@ -641,7 +641,7 @@ class VC_getStarted:
             tempItem.photo = chosenImage
             tempItem.photoInfo = Photo.init(name: photoName, url: photoURL)
            
-            selectedPhoto = SelectedPhoto.init(filename: tempItem.photoInfo.name, instagramURL: tempItem.photoInfo.url)
+            selectedPhoto = SelectedPhoto.init(filename: tempItem.photoInfo.name, photoURL: tempItem.photoInfo.url)
             if isSim { print("Photo saved") }
         } catch {
             sharedFunc.ALERT().show(
@@ -872,7 +872,7 @@ class VC_getStarted:
             return
         }
         
-        selectedPhoto = SelectedPhoto.init(filename: tempItem.photoInfo.name, instagramURL: tempItem.photoInfo.url)
+        selectedPhoto = SelectedPhoto.init(filename: tempItem.photoInfo.name, photoURL: tempItem.photoInfo.url)
         
         /* If Selected Photo is of different format, then set to min. size */
         let oldFormat:UIImage.imgOrientationStruct = item.photo.orientation

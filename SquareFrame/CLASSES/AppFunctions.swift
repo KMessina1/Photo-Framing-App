@@ -857,7 +857,7 @@ class appFunc:Alamofire.SessionDelegate {
                 if let dict = Locksmith.loadDataForUserAccount(userAccount: "squareframe") {
                     selectedPhoto = SelectedPhoto.init(
                         filename: dict["selectedPhoto.filename"] as? String ?? "",
-                        instagramURL: dict["selectedPhoto.instagramURL"] as? String ?? ""
+                        photoURL: dict["selectedPhoto.photoURL"] as? String ?? ""
                     )
                 }else{
                     if selectedPhoto.filename.isNotEmpty {
@@ -869,7 +869,7 @@ class appFunc:Alamofire.SessionDelegate {
             func save() {
                 let data:[String:Any] = [
                     "selectedPhoto.filename": selectedPhoto.filename!,
-                    "selectedPhoto.instagramURL": selectedPhoto.instagramURL!
+                    "selectedPhoto.photoURL": selectedPhoto.photoURL!
                 ]
 
                 Server().dumpParams(data,scriptName: "SELECTED_PHOTO")
