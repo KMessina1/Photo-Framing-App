@@ -126,13 +126,13 @@ final class appInfo {
             
             // PRODUCTION CHECK: ✅ MAKE SURE LIVE KEYS FOR PRODUCTION
             struct STRIPE_API_KEY { // Published Key: App SDK Uses these keys
-                static let test:String! = "pk_test_ksHf21o2s3yO6nIVN8T8e45U"
-                static let live:String! = "pk_live_v1JGFjnFgt6Y5Oc0ixlwDSWq"
+                static let test:String! = "pk_test_..."
+                static let live:String! = "pk_live_..."
             }
             
             struct STRIPE_SECRET_KEY { // Secret Key: PhP SDK and Scripts use these keys
-                static let test:String! = "sk_test_A5eTBWoS24ANyxETlElmEUyl"
-                static let live:String! = "sk_live_XjBdnYl8erbWUpj6MPxwYdJg"
+                static let test:String! = "sk_test_..."
+                static let live:String! = "sk_live_..."
             }
             
             struct STRIPE_THEME {
@@ -148,7 +148,7 @@ final class appInfo {
         }
         
         struct ORDERS {
-            static let email:String! = "mailto:orders@sqframe.com"
+            static let email:String! = "mailto:..."
             static let giftMsg:String! = "giftMsgPreview.pdf"
             static let lastOrder:String! = "lastOrder.pdf"
             static let order:String! = "Order_"
@@ -157,7 +157,7 @@ final class appInfo {
     }
 
     struct PHOTOS {
-        static let SF_Customer_Photos:String! = "SF App Photos"
+        static let SF_Customer_Photos:String! = "App Photos"
     }
     
 // MARK: ├─➤ Shortcut Info
@@ -177,19 +177,19 @@ final class appInfo {
 
 // MARK: ├─➤ Instagram
     struct INSTAGRAM { // Instagram Transactions, requires CAS_Instagram library
-        static let clientID:String!             = "1211cb15ebef4bc3831cd851db28d22a"
-        static let clientSecret:String!         = "9292c83a2f054469b9695a26114a4adb"
+        static let clientID:String!             = "..."
+        static let clientSecret:String!         = "..."
         static let usersURL:String!             = "https://api.instagram.com/v1/users/self/"
         static let loginURL:String!             = "https://www.instagram.com/accounts/login/"
         static let authorizeURL:String!         = "https://api.instagram.com/oauth/authorize/"
         static let permissionsScope:String!     = "basic" //"basic+public_content+follower_list"
-        static let privacyPolicyURL:String!     = "https://sqframeapp.com/?page_id=9298&v=7516fd43adaa"
+        static let privacyPolicyURL:String!     = "https://..."
         struct PHOTOS {
             static let all      = "https://api.instagram.com/v1/users/self/media/recent"
             static let recents  = "https://api.instagram.com/v1/users/self/media/recent"
             static let liked    = "https://api.instagram.com/v1/users/self/media/liked"
         }
-        static let redirectURI:String!          = "https://www.sqframe.com"
+        static let redirectURI:String!          = "https://..."
     }
     
 // MARK: ├─➤ Databases
@@ -224,10 +224,10 @@ final class appInfo {
         // MARK: ├───➤ App Info
         static let target:String!               = "TARGET_SF"
         static let revision:String!             = "a"
-        static let name:String!                 = "Squareframe"
-        static let fullName:String!             = "Squareframe App"
+        static let name:String!                 = "Photo Framing"
+        static let fullName:String!             = "Photo Framing App"
         static let appID:String!                = "SF"
-        static let appEdition:String!           = sharedFunc.APP().isAdhocMode() ?"SF-App (R&D)" :"SF-App"
+        static let appEdition:String!           = sharedFunc.APP().isAdhocMode() ?"App (R&D)" :"App"
         static let appIDNum:Int!                = appInfo.kAppIDNum.kSF.rawValue
         static let supportedLanguages:String!   = kLANGUAGES.english + "," + kLANGUAGES.spanish
         static let whatsNewFilename:String!     = "WhatIsNew_SF.plist"
@@ -288,17 +288,17 @@ final class appInfo {
         
         // MARK: ├───➤ SOCIAL MEDIA
         struct URLs {
-            let faceBook:String! = "https://facebook.com/Squareframe-534491940064209/"
-            let instagram:String! = "https://www.instagram.com/sqframe/"
+            let faceBook:String! = "https://facebook.com/..."
+            let instagram:String! = "https://www.instagram.com/..."
             let linkedIn:String! = ""
-            let pinterest:String! = "https://www.pinterest.com/sqframe/"
-            let twitter:String! = "https://twitter.com/sqframe"
-            let website:String! = "https://www.sqframeapp.com"
+            let pinterest:String! = "https://www.pinterest.com/..."
+            let twitter:String! = "https://twitter.com/..."
+            let website:String! = "https://www..."
             let youTube:String! = ""
         }
 
         // MARK: ├───➤ THIRD PARTY PARAMS
-        static let fabricAPIKey:String! = "f08ed1e0625c990dceb4c9858446e690844b4b75"
+        static let fabricAPIKey:String! = "..."
     }
     
     func getEdition() -> String {
